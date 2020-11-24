@@ -1,0 +1,38 @@
+stories:
+- steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  story: happy path
+- steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  story: sad path 1
+- steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  story: sad path 2
+- steps:
+  - intent: qa_0
+  - action: utter_qa_0
+  story: qa_0 path
+- steps:
+  - intent: qa_1
+  - action: utter_qa_1
+  story: qa_1 path
+- steps:
+  - intent: qa_2
+  - action: utter_qa_2
+  story: qa_2 path
+version: '2.0'
