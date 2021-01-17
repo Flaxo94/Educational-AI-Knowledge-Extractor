@@ -7,7 +7,10 @@ def read_pdf(i):
     pdf = pdfplumber.open("./input/" + i)
     text = ""
     for j in pdf.pages:
-        text = text + j.extract_text().replace('\n', '')
+        try:
+            text = text + j.extract_text().replace('\n', '')
+        except:
+            pass
     pdf.close()
 
     return text
