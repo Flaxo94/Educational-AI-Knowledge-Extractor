@@ -1,6 +1,11 @@
 import os
 import pdfplumber
+import re
 from pathlib import Path
+
+
+def filter_chars(text):
+    return ''.join([i for i in text if (i.isalpha()) or i == " "])
 
 
 def read_pdf(i):
@@ -8,6 +13,7 @@ def read_pdf(i):
     text = ""
     for j in pdf.pages:
         text = text + j.extract_text().replace('\n', '')
+        text = filter_chars(text)
     pdf.close()
 
     return text
@@ -17,6 +23,7 @@ def read_txt(i):
     with open("./input/" + i, 'r') as file:
         # struggles with umlaute like ä but not a problem for english texts
         data = file.read().replace('\n', '')
+        data = filter_chars(data)
     return data
 
 
