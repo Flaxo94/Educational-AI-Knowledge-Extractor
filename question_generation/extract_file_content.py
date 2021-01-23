@@ -4,27 +4,31 @@ from pathlib import Path
 
 
 def read_pdf(i):
-    pdf = pdfplumber.open("./input/" + i)
+    
+    pdf = pdfplumber.open("input/"+i)
+    
     text = ""
     for j in pdf.pages:
-        text = text + j.extract_text().replace('\n', '')
+        try:
+            text = text + j.extract_text().replace('\n', '')
+        except AttributeError:
+            continue
     pdf.close()
 
     return text
 
 
 def read_txt(i):
-    with open("./input/" + i, 'r') as file:
-        # struggles with umlaute like ä but not a problem for english texts
+    with open("input/" + i, 'r', encoding='utf8') as file:
         data = file.read().replace('\n', '')
     return data
 
 
 def read_files():
     # create directory if it doesn't exist already
-    Path("./input").mkdir(parents=True, exist_ok=True)
+    Path("input").mkdir(parents=True, exist_ok=True)
     # list files in directory
-    file_dir = os.listdir('./input/')
+    file_dir = os.listdir('input/')
 
     # create list that includes all files of supported formats
     files = {}
@@ -47,9 +51,9 @@ def read_files():
 
 def get_file_names_only():
     # create directory if it doesn't exist already
-    Path("./input").mkdir(parents=True, exist_ok=True)
+    Path("input").mkdir(parents=True, exist_ok=True)
     # list files in directory
-    file_dir = os.listdir('./input/')
+    file_dir = os.listdir('input/')
 
     # create list that includes all files of supported formats
     files = {}

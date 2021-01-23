@@ -1,9 +1,8 @@
 import yaml
 
-
-def automate_qa(text, nlp):
+def automate_qa(text, qa_pairs, yml_files):
         # nlp = pipeline("question-generation")
-        qa_pairs = nlp(text)
+        
         #print(nlp(text))
 
         for i, elem in enumerate(qa_pairs):
@@ -15,8 +14,8 @@ def automate_qa(text, nlp):
                 story = intent + " path"
 
                 # Neuen intent erstellen
-
-                with open("C:/Users/norha/Documents/Rasa/data/nlu.yml", "r") as file:
+                
+                with open(yml_files["nlu_yml"], "r") as file:
 
                         data = yaml.load(file, Loader=yaml.FullLoader)
                         for i in data["nlu"]:
@@ -26,26 +25,27 @@ def automate_qa(text, nlp):
                                 data["nlu"].append({"intent": intent, "examples": "- " + q})
                         
 
-                with open("C:/Users/norha/Documents/Rasa/data/nlu.yml", "w") as file:
+                with open(yml_files["nlu_yml"], "w") as file:
                         yaml.dump(data, file)
 
                 # In domain.yml neuen intent & repsonse einfügen:
-                with open("C:/Users/norha/Documents/Rasa/domain.yml", "r") as file:
+                with open(yml_files["domain_yml"], "r") as file:
 
                         data = yaml.load(file, Loader=yaml.FullLoader)
                         for i in data["intents"]:
+                                print(i)
                                 if i == intent:
                                         break
                         else:
-                                data["intents"].append(intent)
+                                data["intents"].update({intent: {"use_entities": True}})
                                 data["responses"].update({utter: [{"text": a}]})			
 
-                with open("C:/Users/norha/Documents/Rasa/domain.yml", "w") as file:
+                with open(yml_files["domain_yml"], "w") as file:
                         yaml.dump(data, file)
 
                 # neue story einfügen
 
-                with open("C:/Users/norha/Documents/Rasa/data/stories.yml", "r") as file:
+                with open(yml_files["stories_yml"], "r") as file:
 
                         data = yaml.load(file, Loader=yaml.FullLoader)
                         
@@ -55,6 +55,7 @@ def automate_qa(text, nlp):
                         else:
                                 data["stories"].append({"story": story, "steps": [{"intent": intent}, {"action": utter}]})
 
-                with open("C:/Users/norha/Documents/Rasa/data/stories.yml", "w") as file:
+                with open(yml_files["stories_yml"], "w") as file:
                         yaml.dump(data, file)
+
 
