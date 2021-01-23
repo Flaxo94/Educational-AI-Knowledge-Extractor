@@ -37,7 +37,8 @@ nlp = pipeline("question-generation")
 print()
 
 # 2. aus file den inhalt holen und als string speichern
-text = read_pdf("guitar.pdf")
+filename = "guitar.pdf"
+text = read_pdf(filename)
 print("guitar.pdf gelesen:\n")
 print(text, "\n") if debug else None
 
@@ -46,17 +47,17 @@ qa_pairs = nlp(text)
 print(qa_pairs, "\n") if debug else None
 
 # 4. yml dateien füllen
-automate_qa(text, qa_pairs, yml_files)
+automate_qa(text, qa_pairs, yml_files, filename)
 print("yml files gefüllt.\n") if debug else None
 
 # 5. Modell trainieren
-"""
-print("Great success! Now the new model will be trained...")
+
+print("Great success! Now the new model will be trained...\n")
 os.chdir(chatbot_dir)
 os.system(rasa_cmd)
 print("Training new model...Please wait until CMD process\
 is finished. Your new model will be in /models/")
-"""
+
 """
 file = read_files()
 print(file)

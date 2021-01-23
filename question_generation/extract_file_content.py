@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def filter_chars(text):
-    return ''.join([i for i in text if (i.isalpha()) or i == " "])
+    return ''.join([i for i in text if (i.isalpha() or i in [" ", ".", ","])])
 
 
 def read_pdf(i):
