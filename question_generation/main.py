@@ -38,7 +38,9 @@ print()
 
 # 2. aus file den inhalt holen und als string speichern
 filename = "guitar.pdf"
-text = read_pdf(filename)
+text = read_pdf(filename).lower()
+with open("out.txt", "w") as f:
+	f.write(text)
 print("guitar.pdf gelesen:\n")
 print(text, "\n") if debug else None
 
