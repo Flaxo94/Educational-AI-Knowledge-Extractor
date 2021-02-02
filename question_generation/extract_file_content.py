@@ -23,7 +23,7 @@ def read_pdf(i):
 
 def read_txt(i):
     with open("input/" + i, 'r', encoding='utf8') as file:
-        data = file.read().replace('\n', '')
+        data = file.read()#.replace('\n', '')
         data = filter_chars(data)
     return data
 

@@ -1,0 +1,546 @@
+1.1 Introduction
+Among various trending topics that can be investigated in the field of educational technology at present (see the other courses of the Online Diploma Programme like Open Online Education, Seamless Learning and New Learning Experiences) there is a clear and high demand of making use of educational data to improve the whole learning and teaching cycle. This spans from collecting and estimating the prior knowledge of students for a certain subject, to the actual learning process and its assessment. Educational data science therefore cuts through almost all educational technology disciplines and is key to many other research topics. 
+
+The use of data to inform decision-making in education and training is not new but the scope and scale of its potential impact for teaching and learning has increased by orders of magnitude over the last few years. We are now at a stage where data can be automatically harvested at previously unimagined levels of granularity and variety. Analysis of these data has the potential to provide evidence-based insights into learner abilities and patterns of behaviour that in turn can provide crucial insights to guide curriculum design, to improve outcomes for all learners, change assessment from mainly summative to more formative assessments, and thus to contribute to economic and social well-being of the society.
+
+Data science in education has been coined ‘Learning Analytics’, an umbrella term for research questions from overlapping research domains such as psychology, educational science, computer and data science. In the following sections the field of learning analytics is explored in more detail.
+
+1.2 A definition of learning analytics
+Learning analytics is currently the term that is used for research, studies and applications that try to understand and support the (study and learning) behaviour of learners based on large sets of collected data. A common definition that is used by the field itself was coined by the organisers of the first International Conference on Learning Analytics and Knowledge in 2011: “Learning analytics is the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimising learning and the environments in which it occurs.”
+
+Not so long ago, gathering data was purely done by using surveys, interviews, and assessments with a selected representative number of students. The amount of data gathered was constrained by the cost of such activities, by the time it took to collect the data and by worries about the scope and authenticity of the data. Learning in digital learning environments has made data collection part and parcel of delivering educational content to the students. With the advent of learning analytics the mining of student data and their analysis no longer need to be limited to representative pilot studies: now an entire student population may be studied and can be monitored on demand.
+
+Learning analytics can provide different levels of insights as demanded by Reich (2015): either it is provided on the level of a single course, on the level of a collection of courses or on the level of a whole curriculum. Buckingham Shum (2012) therefore introduced the notion of micro-, meso- and macro-levels to distinguish the role that learning analytics can play on different abstraction levels. The micro-level mainly addresses the needs of individuals, e.g. the students, within a course; the meso-level addresses a collection of courses and provides information for course managers; the macro-level takes a bird view on a directory of courses and can provide insights for a whole community by monitoring learning behaviour across courses and even across different scientific disciplines. Depending on which level the learning analytics takes place different objectives and information are of relevance and can be monitored
+
+Although learning analytics has been around for several years now and various (startup) companies have provided learning analytic tools with the support of plenty of venture capital, most learning analytics strategies are still at the initial phases (see Figure 2) of the five step sophistication model developed by the Society of Learning Analytics Research (SoLAR) (Siemens et al., 2014). The reason for this is that despite the great enthusiasm currently surrounding learning analytics, there are substantial questions for research and organisational development that have brought the implementation of learning analytics to a hold, and in some prominent cases have even reversed it due to concerns by governments, stakeholders and civil rights groups about privacy and ethics applied to the handling of personal data (Singer, 2014).
+
+A comprehensive introduction to the different domains that are affected by learning analytics has been provided by Greller and Drachsler (2012). They present the technological and educational aspects of learning analytics in six dimensions as described in the next section, followed by an outline of pressing questions you have to ask yourself in order to develop your own learning analytics concept for your course assignment in week 4.
+
+References:
+Buckingham Shum, S. (2012). Learning Analytics Policy Brief. UNESCO Institute of Technologies in Education. Available at: http://iite.unesco.org/files/policy_briefs/pdf/en/learning_analytics.pdf 
+
+Greller, W., & Drachsler, H. (2012). Translating Learning into Numbers: A Generic Framework for Learning Analytics. Educational Technology & Society, 15(3), 42–57. Available at: http://www.ifets.info/journals/15_3/4.pdf 
+
+Reich, J. (2015). Rebooting MOOC research. Science, 347(6217), 34-35.
+
+Siemens, G., Dawson, S., & Lynch, G. (2014). Improving the Quality and Productivity of the Higher Education Sector – Policy and Strategy for Systems-Level Deployment of Learning Analytics. Canberra, Australia: Office of Learning and Teaching, Australian Government. Available at: http://solaresearch.org/Policy_Strategy_Analytics.pdf
+
+Singer, N. (2014). InBloom Student Data Repository to Close. In The New York Times, April 21, 2014. Available at:
+https://bits.blogs.nytimes.com/2014/04/21/inbloom-student-data-repository-to-close/?_r=0
+
+1.3 Six dimensions of learning analytics
+Greller and Drachsler (2012) clustered learning analytics into the following six dimensions: 
+
+Stakeholders, 
+Objectives, 
+Data, 
+Instruments, 
+External constraints, and Internal limitations. 
+
+These critical dimensions take the presumption that responsible developers of analytics processes will not only implement what is technically possible to do and legally allowed, but that they holistically consider the outcomes for the educational stakeholders and, even more importantly, the consequences for the data subjects, i.e. the people supplying the data.
+
+1.3.1 Stakeholders: contributors and beneficiaries of learning analytics.
+The stakeholder dimension includes data clients as well as data subjects. Data clients are the beneficiaries of the learning analytics process who are entitled and meant to act upon the outcome (e.g. students & teachers). Conversely, the data subjects are the suppliers of data, normally through their browsing and interaction behaviour. Those roles can change depending on the objective of the analytics on the meso- and macro-level. As described in the introduction, educational technology requires a strong stakeholder-needs analysis in order to be successful in the long run (Drachsler & Greller, 2012). This especially applies to learning analytics solutions as data sources are often highly diverse and the educational systems of various countries are very heterogeneous. A one-size-fits-all approach therefore is pointless; instead, a sophisticated methodology to identify key indicators is needed that can be transferred into software engineering diagrams and early prototypes to innovate learning and teaching. Examples of such requirement engineering research has been conducted by Drachsler & Greller (2012) and Drachsler, Stoyanov & Specht (2014).
+
+
+Guiding questions for your learning analytics concept are:
+What are the needs of your educational stakeholders for a learning analytics solution and how can they be involved in the software development process?
+How can different stakeholder groups be supported by learning analytics tools in a meaningful way? 
+How can shortcomings of an educational system be identified and innovated with learning analytics?
+
+1.3.2 Objectives: set goals that learning analytics applications aim to support
+The main opportunities for learning analytics as a domain are to unveil and contextualise so far hidden information out of the educational data and prepare it for the different stakeholders. This new kind of information can support individual learning or teaching processes on the micro-level. Here, we mainly talk about supporting reflection and making predictions as the two main objectives. This also results in more personalised learning opportunities with personalised instructions and individual learning paths towards a learning goal. On the meso- or macro-level, however, the objectives change and are more geared towards organisational knowledge management with the focus on benchmarking of pedagogical approaches and interventions.
+
+Guiding questions for your learning analytics concept are:
+What are effective visualisations to support awareness and reflection processes of different stakeholder groups?
+What are promising predictors from a dataset to forecast the study success of learners?
+How to recommend or cluster learners into groups to recommend personalised information or learning paths to them? 
+1.3.3 Data: educational datasets and the environment in which they occur
+Learning analytics uses datasets from different educational systems. Most of the data produced in institutions is protected from external access or usage. There is, however, an increasing amount of open and linked data sources from governments and organisations like OECD that can be used to further investigate target groups for certain courses or programmes. Among providers and users of those closed and open datasets there is a movement towards more standardised meta-data for learning analytics, i.e. the appearance of xAPI and IMS Caliper. The usage of such a metadata standards allows for the merging of datasets and the comparison of results that are gained in different scientific disciplines and educational scenarios (Berg et al., 2016). A comprehensive uptake could lead to a paradigm shift in educational science, a field that is currently more used to small-scale experimental studies than to big data-driven ones like those performed at Google and Facebook (Kramer, Guillory, & Hancock, 2014). Apart from strengthening the research side with standardised educational metadata or data interoperability compliance, those standards could also unleash a market space for educational tools and open educational resources and their analytics. 
+
+Guiding questions for your learning analytics concept are:
+What kind of online learning tools are used in your target organisation? 
+For which of those do you have access to the data? 
+Where and how could you extract data from the online learning tools?
+
+1.3.4 Instruments: technologies, algorithms, and theories that carry learning analytics
+Different technologies can be applied in the development of educational services and applications that support the objectives of the different educational stakeholders (Drachsler et al., 2015). Learning analytics takes advantage of machine learning, social network analysis, or classical statistical analysis techniques in combination with visualisation techniques (Fazeli et al., 2017; Scheffel et al., 2017). Through these technologies, learning analytics can contribute tailored information-support systems to the stakeholders and provide reports on demand. For instance, learning analytics could be applied to develop a drop-out alert system to identify students that are in danger of  dropping out. 
+
+Guiding questions for your learning analytics concept are:
+What are meaningful visualisations of learning analytics data for different target groups?  
+Do accuracy and precision values of machine learning algorithms correlate with user satisfaction of a learning analytics system?
+Does more personalised information provided to a target user increase the effectiveness and efficiency of the learning process?
+
+1.3.5 External Constraints: restrictions or potential limitations for anticipated benefits
+The large-scale production, collection, aggregation, and processing of information from educational programmes have led to ethical and privacy concerns regarding potential harm to individuals and society. How apt such concerns really are became evident in prominent examples like the shutting down of inBloom in the US due to privacy concerns about learning analytics and big data in education (Singer, 2014). 
+
+Until now, few papers have been published relating to learning analytics’ ethics and privacy and potential solutions. However, first policies and guidelines regarding privacy, legal protection rights and ethical implications are available by the Open University UK. An article by Drachsler & Greller (2016) investigates the most common fears and the propositions for privacy and ethics and concludes with an eight-point checklist called DELICATE that can be applied by researchers, policy makers and institutional managers to facilitate a trusted implementation of learning analytics. Although initial guidelines and solutions are provided for ethics and privacy, fundamental research questions and innovative technological solutions are needed to find answer to the issues mentioned in the questions below. 
+
+Guiding questions for your learning analytics concept are:
+How can a value-based design in terms of ethics and privacy be considered in the software development process for learning analytics solutions?
+How can the notion of ‘informed consent’ be supported by technology to facilitate the data subject and data client?
+How can you train your stakeholders to be more knowledgeable and responsible about/for their data?
+
+1.3.6 Internal Limitations: user requirements to exploit the benefits
+In order to make learning analytics an effective tool for education, it is important to recognise that learning analytics does not end with the presentation of algorithmically attained results. Those results need interpretation by the educational stakeholders. Therefore, the exploitation of learning analytics requires some high level competences, such as interpretative and critical evaluation skills. The stakeholders need to be made aware of how to properly use and interpret the provided results. Those skills are to date not a standard competence for the stakeholders in the educational field. It is thus also a challenge for the adoption and rollout of learning analytics to increase the competences of the educational stakeholders, mainly teachers and students. Educational technology therefore should also take a leading role in teacher and learner training to increase those competences. Apart from the the interpretation, the educational stakeholders should also be involved in the requirements engineering process of creating learning analytics applications. In order for them to later properly use the learning analytics tools, the creators of learning analytics tools need to make sure that they provide the educational stakeholders with the information they want to see. Using instruments such as the Evaluation Framework for Learning Analytics (EFLA) created by Scheffel et al. (2017) can thus be a useful source of information.
+
+Guiding questions for your learning analytics concept are:
+How can you use ready-built tools like EFLA to measure the effects of learning analytics on your stakeholders?
+How can you train interpretation and information skills of your stakeholders e.g. example dataset of your organisation?
+How can those skills become part of competence profile of the stakeholders in the future? 
+
+Berg, A., Scheffel, M., Drachsler, H., Ternier, S., & Specht, M. (2016). Dutch Cooking with xAPI Recipes: The Good, the Bad and the Consistent. In Proceedings of the International Conference on Advanced Learning Technologies, ICALT ’16, pages 234–236. DOI: 10.1109/ICALT.2016.48. Available at: 
+
+Drachsler, H. & Greller, W. (2012). The Pulse of Learning Analytics – Understandings and Expectations from the Stakeholders. In Proceedings of the Second International Conference on Learning Analytics and Knowledge, LAK ’12, pages 120–129, New York, NY, USA. ACM. DOI: 10.1145/2330601.2330634. 
+
+Drachsler, H. & Greller, W. (2016). Privacy and Analytics – it’s a DELICATE issue. A Checklist to establish trusted Learning Analytics. In Proceedings of the Sixth International Conference on Learning Analytics and Knowledge, LAK ’16, pages 89–98, New York, NY, USA. ACM. DOI: 10.1145/2883851.2883893. 
+
+Drachsler, H., Stoyanov, S. & Specht, M. (2014). The impact of learning analytics on the dutch education system. In Proceedings of the Fourth International Conference on Learning Analytics And Knowledge, LAK '14. pages 158-162, New York, NY, USA. ACM. DOI: 10.1145/2567574.2567617 Available at: http://dspace.ou.nl/handle/1820/5322 
+
+Drachsler, H., Verbert, K., Santos, O. C., & Manouselis, N. (2015). Panorama of Recommender Systems to Support Learning. In F. Rici, L. Rokach, & B. Shapira (Eds.), 2nd Handbook on Recommender Systems (pp. 421- 451). Springer, US. DOI: 10.1007/978-1-4899-7637-6_12 Available at: 
+
+Fazeli, S., Drachsler, H., Bitter-Rijpkema, B., Brouns, F., van der Vegt W., & Sloep, P.B. (2017). User-centric Evaluation of Recommender Systems in Social Learning Platforms: Accuracy is Just the Tip of the Iceberg. IEEE Transactions on Learning Technologies. DOI: 10.1109/TLT.2017.2732349 
+
+Greller, W., & Drachsler, H. (2012). Translating Learning into Numbers: A Generic Framework for Learning Analytics. Educational Technology & Society, 15(3), 42–57. Available at: https://www.j-ets.net/ETS/journals/15_3/4.pdf  
+
+Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788-8790.
+
+Scheffel, M., Drachsler, H., de Kraker, J., Kreijns, K., Slootmaker, A., and Specht, M. (2017). Widget, widget on the wall, am I performing well at all? IEEE Transactions on Learning Technologies, 10(1):42–52. DOI: 10.1109/TLT.2016.2622268. 
+
+Singer, N. (2014). InBloom Student Data Repository to Close. Article published online in The New York Times, April 21, 2014. Available at: https://bits.blogs.nytimes.com/2014/04/21/inbloom-student-data-repository-to-close/?_r=0 
+
+
+2.0 Week 2 starting page
+Welcome to week 2 of the learning analytics course. This week we will discuss some critical challenges for the implementation of learning analytics in a target organisation. Therefore, we will first address the topic of ethics and privacy for learning analytics. Thereafter, we will discuss what a learning analytics-supported learning design looks like and what needs to be considered when we apply learning analytics to an existing set of courses. Finally, we will present the EFLA, an instrument that provides an easy but effective way of measuring the impact of learning analytics for the educational stakeholders, i.e. learners and teachers. 
+
+Before you start reading the different sections below, please have a look at our introductory video. Once you have worked through all sections of this week, please complete the assignment. 
+
+2.1 Ethics and privacy for learning analytics
+
+2.1.1 Background and definitions
+The widespread rollout and adoption of learning analytics in educational institutions has lately stagnated a bit due to concerns about privacy and ethics with regards to personal data. In this ongoing discussion, fears and realities are often indistin­guish­ably mixed up, leading to an atmosphere of uncertainty among potential beneficiaries of learning analytics as well as institutional managers who aim to innovate their institution’s learning support but now hesitate to implement analytics. 
+
+How pertinent the issue is can be seen in prominent examples like inBloom in the US (Singer, 2014). In spite of receiving more than $100m of grant funding by the Gates and Carnegie found­ations, and despite the potential benefits, the inBloom analytics system was closed down for good in April 2014, after parents and pressure groups expressed sincere concerns about the misuse of data, the repurposing of data for commercial interests, as well as general safety from cyber-attacks (see figure). 
+
+Ethics is the philosophy of moral that involves systematising, de­fend­ing, and recommending concepts of right and wrong conduct. Historically, the first basic written principles for ethical research originated from the Nuremberg trials in 1949, and were used to convict leading Nazi medics for their atrocities during the Second World War (Kay, Korn & Oppenheim 2012). This so-called Nuremberg Code is the first mani­fest for research ethics.
+
+With the rise of big data and cloud computing new ethical challenges emerged, spurring the call for ethical committees at big data companies like facebook. A recent trigger was the facebook contagion study from 2014 (Kramer, Guillory, & Hancock 2014), where a the newsfeed of over 650,000 face­book users were manipulated without notification or collecting informed consent. The reaction to this manipulation has been massive among the user community and beyond (see figure). 
+
+The right to privacy is a basic human right and an established element of the legal systems in developed countries. Already at the end of the 19th century, Warren & Brandeis (1890) wrote an article about “The Right to Privacy”, where they explained that privacy is the "right to be let alone", and focused on protecting individuals. This was further developed by Westin in 1968 who made it clear that new technologies change the balance of power between privacy and societal technologies. Westin specified privacy as the “right of informational self-determination” and as a vital part for restricting government surveillance in order to protect democratic processes. Flaherty (1989) took the informational self-determination further and claimed that networked computer systems pose a threat to privacy. He first specified 'data protection' as an aspect of privacy, which involves "the collection, use, and dissemination of personal information". This concept forms the foundation for fair information practices used by governments globally. Roessler (2005) later operationalised the right to privacy across three dimensions: 1. Informational privacy, 2. Decisional privacy, 3. Local privacy. It is important to note that privacy is not the same as anonymity or data security. They are related concepts that have an effect on privacy, but do not represent privacy as such.
+
+In short, we can thus say that ethics is a moral code of norms and conventions that exists in society externally to a person, whereas privacy is an intrinsic part of a person’s identity and integrity. The understanding of what constitutes ethical behaviour varies and fluctuates strongly over time and cultures. Privacy, on the other hand forms the boundary of one’s person or identity against other entities. Perceived violation of privacy can occur, when the ethical code of the surrounding society conflicts with the personal boundaries.
+
+2.1.2 Legal Frameworks
+The European position towards learning analytics has been expressed in the European Commission’s report “New Modes of Learning and Teaching in Higher Education”. In recommend­ation 14, the Commission clearly stated that “Member States should ensure that legal frameworks allow higher education institutions to collect and analyse learning data. The full and informed con­sent of students must be a requirement and the data should only be used for educational purposes”, and, in recommendation 15 it says that “Online platforms should inform users about their privacy and data protection policy in a clear and understandable way. Individ­uals should always have the choice to anonymise their data.”
+
+They based these recommendations on the EU Data Protection Directive 95/46/EC, which defined personal data as “any information relating to an identified or identifiable natural person ('Data Sub­ject'); an identifiable person is one who can be identified, directly or indirectly, in particular by reference to an identification num­ber or to one or more factors specific to his physical, physio­logical, mental, economic, cultural or social identity.” 
+
+With this Directive, the European Commission followed the previously mentioned ethical frameworks such as the Nuremberg Code and specified that the handling and use of personal data have to be:
+ 
+processed fairly and lawfully; 
+for specified, explicit and legitimate purposes; 
+safeguarded from secondary use and further processing; 
+adequate, relevant and not excessive; 
+accurate and up to date; 
+stored no longer than necessary; 
+
+
+Very recently, the EU Directive 95/46/EC has recently been replaced by the General Data Protection Regulation (GDPR) that comes into effect in May 2018. The GDPR is more up to date with respect to meeting the challenges of a digital world (rules regarding breach notification, automated decision making and profiling, data portability, etc.). It also promotes the principle of data protection by design and by default and even constitutes the right to be forgotten as the first data protection regulation in the world. 
+
+The following points are important when it comes to learning analytics and the handling of personal data in the educational context. They have been constituted by the GDPR 2018 and are expected to be empowered by the member states of the EU in May 2018:
+
+Right to restrict processing
+Right to data portability
+Right to object
+Right related to automated decision making and profiling
+Accountability and governance
+Breach notification
+Transfer of data
+
+Data protection by design and by default
+2.1.3 Resources for trusted learning analytics
+Researcher from an international project consortium have been conducting a workshop series about ethics and privacy for learning analytics (EP4LA) that involved over 100 experts during the last few years. From their research efforts, several resources with regards to ethical and privacy aspect of learning analytics are now available. They do, for example, provide an overview of questions about ethics and privacy in the field of learning analytics and have also published a review article about the question of whether privacy can be a showstopper (Drachsler et al., 2016). 
+
+Another important resource that was derived from the intensive study of the ethical and legal texts mentioned above, as well as from a thorough literature review and work done in some of the EP4LA workshops is the DELICATE checklist by Drachsler & Greller (2016). The authors’ goal is to provide a practical tool that can be used by learning analytics developers and implementers to quickly check the privacy risks that are associated with the introduction of data processing in an educational institution. The list contains eight action points that should be considered by managers and decision makers planning the implementation of learning analytics solutions either for their own institution or with an external provider. The figure below shows the full checklist and all its relevant sub questions. The DELICATE checklist can be a helpful instrument for any educational institution to demystify the ethics and privacy discussions around learning analytics. A video about the list’s presentation is available here: 
+
+There are ways to design and provide privacy-conform learning analytics that can be beneficial to all stakeholders and allow for the user to stay in control of the data themselves, all within the established trusted relationship between them and the institution. One such approach is the research around Trusted Learning Analytics as it is conducted by a European consortium, i.e. mainly the Open University of the Netherlands, the Center of Trusted Learning Analytics founded by the Goethe University Frankfurt and the German Leibniz Institute of Educational Research (DIPF). Within this Trusted Learning Analytics consortium, data protection is not seen as a mere legal requirement, but rather as a crucial requirement that needs to be embedded with care into the development and deployment of learning analytics tools to increase the trust of data subjects in these systems. Privacy is not to be seen as a burden but rather as a valuable service that can be offered to build trusting relationships with stakeholders. 
+
+The consortium’s aim is to renew the “contract” between learners and their educational providers to reach a high level of trust but also to release the full potential of learning analytics with practical tools. The design of the products is done according value-sensitive design processes, which allows considering ethical and privacy values on the same level as functional requirements. Thereby, the aforementioned ethical considerations help to develop a Trusted Learning Analytics system that achieves its aims not only in a technical but also in an ethical and humane manner. One of these products is the Trusted Learning Analytics Infrastructure that can be connected to various learning management systems and is available as community source project on request. The infrastructure is the first big data system that takes the GDPR into account and provides practical functions to empower the data subject in the. Learning analytics process.
+
+References mentioned in this section:
+Drachsler, H. & Greller, W. (2016). Privacy and Analytics – it’s a DELICATE issue. A Checklist to establish trusted Learning Analytics. In Proceedings of the Sixth International Conference on Learning Analytics and Knowledge, LAK ’16, pages 89–98, New York, NY, USA. ACM. DOI: 10.1145/2883851.2883893. Available at: http://dspace.ou.nl/handle/1820/6381 
+
+Drachsler, H., Greller, W., Griffiths, D., Hoel, T. Kickmeier-Rust, M. (2016). Is Privacy a Show-stopper for Learning Analytics? A Review of Current Issues and their Solutions. Learning Analytics Review, no. 6, January 2016, ISSN: 2057-7494. Available at: http://www.laceproject.eu/learning-analytics-review/is-privacy-a-show-stopper/ 
+
+Flaherty, D. H. (1989). Protecting privacy in surveillance societies: The federal republic of Germany, Sweden, France, Canada, and the United States. UNC Press Books.
+
+Kay, D., Korn, N., and Oppenheim, C. (2012). CETIS Analytics Series: Legal, Risk and Ethical Aspects of Analytics in Higher Education, serial number: ISSN 2051-9214 Vol 1, No 6. Available at: http://publications.cetis.org.uk/2012/500 
+
+Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. Proceedings of the National Academy of Sciences, 111(24), 8788-8790. DOI: 10.1073/pnas.1320040111.
+
+Singer, N. (2014). InBloom Student Data Repository to Close. Article published online in The New York Times, April 21, 2014. Available at: https://bits.blogs.nytimes.com/2014/04/21/inbloom-student-data-repository-to-close/?_r=0 
+
+Roessler, B. 2005. The Value of Privacy, Oxford: Polity Press.
+
+Warren, S. D., & Brandeis, L. D. (1890). The right to privacy. Harvard law review, 193-220.
+
+Westin, A. F. (1968). Privacy and freedom. Washington and Lee Law Review, 25(1), 166.
+
+2.2 Learning analytics and learning design
+2.2.1 Background and definitions
+Although there is a rather rich sample of learning analytics tools available, we see little educational concepts that embed those tools into their instructional design (also called educational design or learning design) and consider the learning analytics indicators as measure point for educational interventions. Thus, there is little research into the actual use of learning analytics in educational practice and its contribution for educational theories (Wise & Shaffer 2015). 
+
+Instructional design is the process whereby a teacher or educational designer works on all phases of an instruction: starting at the prior-knowledge acquisition of the target group, they design learning objectives and study outcomes, and they design the assessment to test if the outcomes have been achieved. The teaching activities and resources are increasingly provided via IT infrastructures and are most of the time also digitally available. This offers opportunities to use learning analytics as part of the learning environment and the learning activities (Rienties, Toetenel, 2016). It is of crucial importance for a ‘learning analytics-supported learning design’ to already consider potential learning analytics indicators while designing the learning objectives and various activities. 
+
+On the one side, learning design describes the context for learning analytics and defines the conceptual frameworks for meaningful interpretation of learning analytics data. On the other, learning analytics provide empirical evidence for the impact of a particular design for learning by validating assumptions embedded in that design for learning, which eventually leads to changes in the design. The development of the learning analytics paradigm represents a well-known trend similar to many other emerging educational technology fields: it starts as mainly with technology-centred research and development endeavor and gradually identifies the need to integrate with the learning design paradigm.
+While the number of publications explicitly linking learning analytics and learning design is increasing (Persico &  Pozzi, 2015; Knight & Buckingham Shum, 2014; Lockyer, Heathcote,& Dawson 2013; Monroy, Snodgrass Rangel & Whitaker, 2014; Rienties, Nguyen,   Holmes  & Reedy, 2017;  and Wise, 2014), there are still open issues that need to be tackled. There are different attempts to do so, namely: 
+considering learning design as an instructional design process (e.g., the DC4E educational model of Identify, Combine, Realise,  Research);  
+referring to basic learning theories such as behaviorism, cognitivism or connectivism; 
+focusing on self-regulated learning; and 
+assuming that learning design is embedded in a technology-enriched environment  but also through modern sensor technologies (e.g. mobile devices, fitness trackers, HoloLens, etc.). 
+
+One example for such a learning design is a forum discussion activity, where the students are intended to debate on a specific topic and have an interactive discussion in an online forum. Such a ‘forum discussion’ learning activity has specific indications of success or failure depending on its design. Learning analytics can provide now the measures in a dashboard that provide a much more efficient and effective overview about on-going discussions and participation than only looking at the discussion forum in a normal view. By applying simple open source analytics such as social network analysis (Bakaharia & Dawson, 2011) or some text mining, learning analytics can not only show interaction patterns (taking of initiative, commenting, involvement, et.) but also the quality of the contributions (text length, semantic relevance).
+
+Instructional design models, such as DC4E (see image), are general frameworks to guide designers through different stages of producing and delivering instructional products but they are not learning design approaches. It is useful to base learning design on the general learning theories but they need to be operationalised into concrete instructional design solutions. This is quite a challenging task that has not been done so far in the context of learning design research. Certainly the tools embedded in an online learning environment are helpful for designing learning experience of students but simply using them does not necessarily lead to effective learning. There must be an appropriate instruction about what and how to do with them.  
+
+A quick scan of the literature identifies at least two uses of the term learning design: 
+doing research closely related to educational modeling language and its technical specifications in machine interpretable language (Celik & Magoulas, 2016) and  
+arranging learning activities in such a way as to stimulate effective, efficient and enjoyable learning experiences, something that overlaps conceptually with the traditional instructional design paradigm (Rienties, Nguyen,  Holmes  & Reedy, 2017). 
+
+2.2.2 Types of learning design models 
+There is a plethora of learning designs, approaches or theories. Most of them are not only based on learning theories but they also combine components of these learning theories in the design. Learning design approaches usually attempt to operationalise the principles of general learning theories into concrete instructional episodes and activities compatible with cognitive processes involved in learning. Each of the Learning Design approaches addresses a specific learning problem, so a combination of them is useful (Merrill, 2012). Examples of evidence-based learning design approaches that can be included into an integrated learning design model are: 
+
+Four Component Instructional Design Model 4C/ID (Van Merriënboer,  & Kirschner, 2007)
+Cognitive Apprenticeship Approach CAA (Brown, Collins & Duguid,  1996),
+Cognitive-Flexibility Theory CFT (Spiro & Jehng, 1990, 
+Problem-Based Learning PBL (Hmelo-Silver,  2004)  
+Connectivism Theory CT (Siemens, G.; 2004) 
+Community of Practice CoP (Wenger, McDermott, Snyder, 2002)
+Epistemic Frames (Shaffer, 2006)
+Design-Inquiry of Learning (Mor, & Mogilevsky, 2013)
+Cognitive Load Theory CLT (Sweller, Ayres & Kalyuga, 2011) 
+Personal Learning Environment PLE (Fournier, Kop & Hanan, 2015).  
+
+
+Here are some examples of learning design guidelines:
+Confront students with a real-life problem (4C/ID, CAA, CFT, epistemic frames, PBL, design-inquiry of learning) 
+Divide the problem into a set of classes of tasks and order them from simple-to complex (4C/ID, CAA, CoP, CLT)
+Vary the tasks as much as possible so they reflect complexity of the problem situation (4C/ID , CAA, CFT)
+Ask students to extensively search the Web for information about the issue described in the task, including opinions of different experts (CFT, PLE)
+Stimulate  group discussions  within  a formal learning environment (PBL, CAA, CoP).
+Ask students to reflect upon and articulate the information  found, for example, in  a discussion forum, a blog, or a wiki (CAA, PLE, epistemic frames).
+Ask  learners to  create artefacts  related to each task, e.g., create a persona (CAA, epistemic frames, 4C/ID). 
+2.2.3 Future challenges for learning analytics-supported learning design
+Although there is an increased research interest in and progress being made toward aligning the domains of design for learning and learning analytics, there still remain some issues that need to be addressed.
+ 
+Weak embedding of learning analytics into learning design
+Designs for learning that inform learning analytics are not build on evidence-based principles and empirically validated practices. In cases where a learning sciences paradigm is referenced, this is mostly only done at a very general level. Very often these cases either point at learning theories such as behaviorism, cognitivism and connectivism, or they discuss instructional design models (e.g., ADDIE). Neither  of the two approaches  is appropriate for  describing a specific  design for learning as shown by Jivet et al. (2018). The general learning theories do not suggest a direct way for operationalising their principles  into  concrete instructional design solutions, while instructional design models are just frameworks  for developing and evaluating any instructional design approach.
+
+
+Quality of learning analytics indicators 
+The most obvious learning analytics indicators have so far been summative-based ones, i.e. quantitative measures such as page access, time on task or a successful submission of an assignment. These learning analytics check points help to register whether somebody did something but they are not informative enough to suggest any concrete process- or content-related qualitative feedback about the usefulness of a learning experience. 
+Ignoring the rich history of technology-enhanced learning 
+Learning analytics have been introduced, intentionally or unintentionally, as a completely new educational phenomenon, which borrows heavily from data science, business intelligence, marketing, and recommendation  systems.  This , however, obscures the fact that this phenomenon has strong roots in  learning adaptation in general and  more specifically in artificial intelligence in education,  intelligent tutoring systems,  intelligent learning agents,  and adaptive educational web system.  Reasoning from within these precedent cases  would help to better  understand the Learning Analytics phenomenon.
+
+It is important to stress that there is not a one-size-fits-all approach in learning analytics. Therefore, every organisation not only needs to review if their technical infrastructure is suited for learning analytics but also if their learning design suits the learning analytics. 
+
+References used in this section:
+Bakharia, A. & Dawson, S. (2011). SNAPP: a bird's-eye view of temporal participant interaction. In Proceedings of the 1st International Conference on Learning Analytics and Knowledge (LAK '11). ACM, New York, NY, USA, 168-173. DOI: 10.1145/2090116.2090144 Slides available at: https://www.slideshare.net/aneeshabakharia/snapp-learning-analytics-and-knowledge-conference-2011 
+
+Brown, J., Collins, A. &, Duguid P. (1996). Situated cognition and the culture of learning. In: McLellen H. (Ed) Situated learning perspectives (19–44). Englewood Cliffs, NJ: Educational Technology Publications.
+
+Fournier, H., Kop, R., Hanan, S. ( 2015). The value of learning analytics to networked learning on a personal learning environment. NRC Publications Archive. National Research Council, Canada. DOI: 10.1145/2090116.2090131
+
+Jivet, I., Scheffel, M., Specht, M., & Drachsler, H. (2018). License to evaluate: Preparing learning analytics dashboards for educational practice. In Proceedings of International Conference on Learning Analytics and Knowledge, Sydney, NSW, Australia, March 7–9, 2018 (LAK ’18), 10 pages. DOI: 10.1145/3170358.3170421 Available at:  http://dspace.ou.nl/handle/1820/9138 
+
+Knight, S., & Buckingham Shum, S.(2014). Epistemology, assessment, pedagogy: Where learning meets analytics in the middle space. Journal of Learning Analytics, 1(2), 23‐47.
+
+Hmelo-Silver, C.E. (2004). Problem-based learning: What and how do students learn? Educational . Psychology Review, 3, 235–66.
+
+Lockyer, L., Heathcote, E., & Dawson, S.(2013). Informing pedagogical action: Aligning learning analytics with learning design. American Behavioral Scientist, 57(10), 1439–1459.
+
+Merrill, D. (2002). First principles of instruction. Educational Technology, Research and Development, 50, 43–59.
+
+Monroy, C., Snodgrass Rangel, W., & Whitaker, R. (2014). A Strategy for incorporating learning analytics into the design and evaluation of a K–12 science curriculum. Journal of Learning Analytics, 1(2), 94‐125.
+
+Mor, Y., & Mogilevsky, O. (2013). The learning design studio: collaborative design inquiry as teachers’ professional development. Research in Learning Technology, 21, 22054. DOI: 10.3402/rlt.v21i0.22054.
+
+Persico, D., & & Pozzi, F. (2015). Informing learning design with learning analytics to improve teacher inquiry. British Journal of Educational Technology, 46 (2), 230–248. DOI: 10.1111/bjet.12207
+
+Rienties, B., Nguyen, Q., Holmes, W., & Reedy, K (2017). A review of ten years of implementation and research in aligning learning design with learning analytics at the Open University UK. Interaction Design and Architecture(s) Journal (IxD&A), 33, 134-154.
+
+Rienties, B., & Toetenel, L. (2016). The impact of 151 learning designs on students satisfaction and performance: social learning analytics matters. 6th Learning Analytics and Knowledge Conference 2016, April 25-29, 2016, Edinburgh, UK.
+
+Shaffer, D., W. (2006). Epistemic frames for epistemic games. Computers & Education 46, 223–234.
+
+Siemens, George (2004). Connectivism: A Learning Theory for the Digital Age. International Journal of Instructional Technology and Distance Learning. 2. 3-10. 
+
+Spiro, R.J., Jehng, J. (1990). Cognitive flexibility and hypertext: theory and technology for the non-linear and multidimensional traversal of complex subject matter (p.p. 163–205). In: D. Nix & R. Spiro R. (Eds). Cognition, education and multimedia. Hillsdale, NJ: Erlbaum.
+
+Sweller, J., Ayres, P., & Kalyuga, S. (2011). Cognitive load theory. New York: Springer.
+
+Van Merriënboer, J.J.G.,Kirschner, P.A. (2007). Ten steps to complex learning. Mahwah, NJ: Erlbaum/Taylor and Francis .
+
+Wenger, E., McDermott, R., Snyder, W. M. (2002). Cultivating communities of practice. Harvard Business Press.
+
+Wise, A. F. (2014). Designing pedagogical interventions to support student use of learning analytics. In Pistilli, M., Willis, J., & Koch, D (Eds.) Proceedings of the 4th International Conference on Learning Analytics and Knowledge (LAK '14), March 24 - 28 2014, (pp. 203–211). Indianapolis, IN, USA. New York: ACM. DOI: 10.1145/2567574.2567588
+
+Wise, F. W. & Shaffer, D. W. (2015). Why theory matters more than ever in the age of big data. Journal of Learning Analytics, 2(2), 5–13. DOI: 10.18608/jla.2015.22.2
+
+
+
+Welcome to week 3 of the learning analytics course. In this week you will learn something about learning analytics dashboards.
+
+Before you start reading the different sections below, please have a look at our introductory video. Once you have worked through all sections of this week, please complete the assignment. 
+
+3.1 Introduction
+A typical learning analytics intervention is the learning dashboard, a visualisation tool built with the purpose of empowering different stakeholders to make informed decisions about the learning process. Dashboards have been developed for a broad range of stakeholders, including learners, teachers, researchers or administrative staff, and have been applied in various learning scenarios. Most dashboards consider the formal learning scenario and address numerous pedagogical approaches: computer-supported collaborative learning, blended learning and online learning. 
+
+Learning analytics dashboards combine the collected data into multiple indicators about learners, the learning process or the learning context into one or multiple visualisations and present them on a single display (Schwendimann et al., 2017). Verbert et al. (2013) presented a conceptual framework that describes the stages users go through while interacting with a learning analytics intervention. In a first stage, data, usually presented in a visual form, fosters awareness. In the reflection stage, users ask themselves questions assessing the accuracy, usefulness and relevance of the displayed data. Once users answered these questions and gained new insights during the sensemaking phase, it is expected that they will change their behaviour if they see fit to achieve an impact.
+
+References mentioned in this section:
+Schwendimann, B. A., Rodriguez-Triana, M. J., Vozniuk, A., Prieto, L. P., Boroujeni, M. S., Holzer, A., ... & Dillenbourg, P. (2017). Perceiving learning at a glance: A systematic literature review of learning dashboard research. IEEE Transactions on Learning Technologies, 10(1), 30-41.
+
+Verbert, K., Duval, E., Klerkx, J., Govaerts, S., & Santos, J. L. (2013). Learning analytics dashboard applications. American Behavioral Scientist, 57(10), 1500-1509.
+
+
+3.2 Dashboard design
+Designing a learning dashboard should consider three aspects. There should be a clear educational concept that explains the need for the dashboard, will guide the design and influence the selection of the other two aspects: the indicators to be displayed on the dashboard and the visual representation of these data. 
+
+3.2.1 Connection to educational sciences
+There  is  a  common  notion  in  the  LA  community  that  learning  analytics research should be deeply grounded in learning sciences (Gasevic et al., 2015). Moreover, LA should be seen as an educational approach guided by pedagogy and not the other way around (Greller & Drachsler, 2012). However, there is a strong emphasis on the “analytics”, i.e. computation of the data and creation  of  predictive  models,  and  not  so  much  on  the  “learning”,  i.e.  applying and researching LA in the learning context where student outcomes can be improved. This might  indicate  that  the  development  of  these  tools  is  still  driven  by  the  need to leverage the learning data available, rather than a clear pedagogical focus of improving learning. Nonetheless, a number of dashboard design are relying on educational concepts in their designs as described below. 
+
+The most common foundation for LA dashboard design is self-regulated learning theory, used frequently to motivate dashboard goals that aim to support awareness and trigger reflection. a learning concept that heavily relies on the assumption that actions are consequences of thinking as SRL is achieved in cycles consisting of goal-setting and planning, performance and self-reflection. Current dashboards  are built  mostly  to  support  the  “reflection  and self-evaluation”  phase  of  SRL  and  neglect  the  others as learners rarely can set goals or track their progress over time. 
+
+Several dashboards rely on constructivist learning concepts that are rooted in the assumption that learners are information constructors and learning is the product of social interaction. Theories of collaborative learning are very common as multiple dashboards aim to offer learner support in collaborative settings. In recent years, there is a strong emphasis on putting the learner at the centre of the learning process, seeking to engage the person as a whole and focusing on the study of the self, motivation and goals. Therefore, more recent dashboard prototypes focus on developing 21st century skills and learning dispositions or use achievement goal orientation theory to understand and leverage learners’ motivation for goal achievement. Several dashboard designs are also concerned with the pedagogical use of dashboards, aligning the instructional design in which the dashboard is embedded with Bloom’s taxonomy (Bloom, 1984) or formative assessment techniques. While the majority of these clusters contain concepts belonging to the learning sciences field, learning analytics researchers also rely on concepts that originate in the broader field of psychology: Ekman's model of emotions and facial expressions, social comparison theory (Festinger, 1954) and culture (Hofstede, 1991).
+
+Jivet et al. (2018) highlight three approaches for using research from learning sciences in developing and evaluating learning analytics dashboards. Firstly, learning analytics researchers can support decisions related to the dashboard design through educational concepts. Additionally, they can use existing validated measurement instruments for assessing whether the tools support learners’ competences. Finally, learning theories and other concepts can be used as a lens for understanding contrasting results when evaluating learners’ responses to using learning analytics dashboards.
+
+3.2.2 Indicators
+The data sources used to collect data for the dashboards vary based on the context for which the dashboard is deployed. By surveying 55 dashboards, Schwendimann et al. (2017) identified six data sources:
+Logs used to track computer-mediated user activity
+Learning artefacts used or produced by the users (e.g., analysis of their contents)
+Information asked directly from the users for analytics purposes (including questionnaires and interviews)
+Institutional database records
+Physical user activity (tracked with physical sensors)
+External APIs (for collecting data from external platforms)
+
+The majority of dashboards use logs as their main data source, while the analysis of learning artefacts is used in around one third of dashboard. It is also rather common for dashboards to consider only one data source, although multiple sources could offer a more accurate snapshot of the learner’s status and learning process. 
+
+According to Schwendimann et al. (2017), there are more than 200 indicators that have been used so far on learning dashboards which have been grouped in six groups, depending on the questions they answer:
+Learner-related indicators present information that describes the learner: prior education, age, prior education, competences
+Action-related indicators describe the actions that learners perform while learning: number of page visits, time spent on task, login time, number of file downloads
+Content-related indicators describe the content the learner interacted with or produced: forum messages, sentiment of the messages, learning activities, videos watched, topics covered in an essay
+Result-related indicators present information about the outcome of learning: average grades, grade distribution in groups
+Context-related indicators specify the context where the learning took place: geographical location, location of learners around a tabletop, placement in a classroom
+Social-related indicators show how the learners interacts with others during learning: network showing communication in a group forum, direction of interaction around a tabletop.
+
+3.2.3 Visualisation
+
+The most frequently used visualisation types were collected by Schwendimann et al. (2017) out of 55 dashboard designs. Although it is expected that the choice of visualisation depends on the target group of the dashboard, the most common types of visualisation have been used across all target groups. Similarly, the educational setting (e.g., university, K12) did not influence the type of visualisation chosen. The most common visualisation types are listed below, together with an example extracted from existing dashboards. Other visualisations include word clouds, traffic lights, bubble charts, box plots, physical maps and doughnut charts.
+
+Bar chart
+Bar chart used in a student's mobile dashboard to visualise a student’s performance on an after-class quiz in comparison to the average of the peers. 
+
+Line graph
+Line graph showing a student’s engagement score across course topics in comparison with another student in a university course. 
+
+Table
+Teacher dashboard for K12 presented in a tabular form with each row representing a student and each column representing a topic of the course. The green or red arrow in each cell shows how well the student in doing in the respective topic. The students are ordered according to how well they are doing in the whole course and how much intervention in needed from the teachers’ side. 
+
+
+Pie chart
+Pie chart used on a dashboard for students that shows the time devoted by a student to the learning activities in the course. 
+
+Heatmap 
+
+A heatmap used in student dashboard that shows the coherences of messages posted in a forum around certain keywords. The map shows the student compared to the class average. 
+
+Scatterplot
+Scatterplot on a student dashboard showing the relationship between the total login time and the login frequency in comparison with the other students and the class averages for the two indicators. 
+
+Radar chart
+Visualisation on a student dashboard of teamwork competency through six dimensions on a scale from 0 to 5. Students can compare themselves with the group peers and the overall team score (self and peers). 
+
+Bubble chart, stacked bars and boxplot charts
+Three visualisations of the same data: students’ self-reported emotions while learning. The bubble chart (a) shows student’s timeline evolution for each emotion, the size represents the intensity of the emotion. The stacked bars (b) allow learners to compare their emotions with the average of the group. The boxplot chart (c) shows the timeline evolution of the group and the comparison to the student’s emotions represented with a black line. 
+
+Gauge chart
+A series of gauge charts indicating a student’s interaction with course material in a first year university engineering course. 
+
+Traffic lights
+Student analytics dashboard showing the extent to which a student has achieved her personal goals. The visualisation shows which concepts may need additional attention of the student and how she is performing on different course activities. The green light suggest the student is on track, the yellow light indicates that the student could improve their activities for the course and the red light indicates the student is performing low. 
+
+3.2.4 Interpreting indicators and visualisations
+In order to easily interpret the data on the widget, users need a representative reference frame. Existing dashboards for learners offer three types of reference frames: i) social, i.e. comparison with other peers, usually the average of the class, ii) achievement, i.e. in terms of goal achievement, and iii) progress, i.e. comparison with an earlier self. The three types are also characterised by where in time the anchor for comparison is set. The social reference frame focuses on the present, allowing learners to compare their current state to the performance levels of their peers at the same point in time. The achievement reference frame directs learner' attention to the future, outlining goals and a future state that learners aim for. Finally, the progress reference frame is anchored in the past, as the learners use as an anchor point a past state to evaluate what they achieved so far. 
+
+Social framing is the most common reference frame (Jivet et al., 2017). Comparison with peers is usually used in order to motivate students to work harder and increase their engagement. However, there is little evidence in learning sciences or in learning dashboard research that all learners feel motivated and their learning is improved when they are compared with their classmates. The lack of support for goal achievement and the prevalence of comparison fosters competition in learners. On the long-term, there is the threat that by constantly being exposed to motivational triggers that rely on social comparison, comparison to peers and “being better than others” becomes the norm in terms of what defines a successful learner. Learning and education should be about mastering knowledge, acquiring skills and developing competencies. For this purpose, comparison should be used carefully in the design of learning dashboards, and research needs to investigate the effects of social comparison and competition in LA dashboards. More attention should be given to the different needs of learners and dashboards should be used as pedagogical tools to motivate learners with different performance levels that respond differently to motivating factors.
+
+References mentioned in this section:
+Aljohani, N. R., & Davis, H. C. (2013). Learning analytics and formative assessment to provide immediate detailed feedback using a student centered mobile dashboard. In Next Generation Mobile Apps, Services and Technologies (NGMAST), 2013 Seventh International Conference on (pp. 262-267). IEEE.
+
+Beheshitha, S. S., Hatala, M., Gašević, D., & Joksimović, S. (2016). The role of achievement goal orientations when studying effect of learning analytics visualizations. In Proceedings of the Sixth International Conference on Learning Analytics & Knowledge (pp. 54-63). ACM.
+
+Bloom, B., Krathwohl, D., Masia, B. (1984). Bloom taxonomy of educational objectives.Allyn and Bacon, Boston, MA. Copyright by Pearson Education.
+
+Dollár, A., & Steif, P. S. (2012). Web-based statics course with learning dashboard for instructors. Proceedings of computers and advanced technology in education (CATE 2012), Napoli, Italy.
+
+Festinger, L. (1954). A theory of social comparison processes. Human relations, 7(2), 117-140.
+
+Gasevic, D., Dawson, S., Siemens, G. (2015). Lets not forget: Learning analytics are about learning. TechTrends 59(1), 64–71.
+
+Greller, W., & Drachsler, H. (2012). Translating Learning into Numbers: A Generic Framework for Learning Analytics. Educational Technology & Society, 15(3), 42–57. Available at: http://www.ifets.info/journals/15_3/4.pdf
+
+Hofstede, G. (1991). Cultures and organizations. intercultural cooperation and its importance for survival. software of the mind. London: Mc Iraw-Hill.
+
+Jivet, I., Scheffel, M., Drachsler, H., & Specht, M. (2017, September). Awareness is not enough: pitfalls of learning analytics dashboards in the educational practice. In European Conference on Technology Enhanced Learning (pp. 82-96). Springer, Cham. Available at: http://dspace.ou.nl/handle/1820/7985.
+
+Khan, I., & Pardo, A. (2016). Data2U: Scalable real time student feedback in active learning environments. In Proceedings of the sixth international conference on learning analytics & knowledge (pp. 249-253). ACM.
+
+Kim, J., Jo, I. H., & Park, Y. (2016). Effects of learning analytics dashboard: analyzing the relations among dashboard utilization, satisfaction, and learning achievement. Asia Pacific Education Review, 17(1), 13-24.
+
+Koh, E., Shibani, A., Tan, J. P. L., & Hong, H. (2016). A pedagogical framework for learning analytics in collaborative inquiry tasks: an example from a teamwork competency awareness program. In Proceedings of the Sixth International Conference on Learning Analytics & Knowledge (pp. 74-83). ACM.
+
+Monroy, C., Rangel, V. S., & Whitaker, R. (2013). STEMScopes: contextualizing learning analytics in a K-12 science curriculum. In LAK’13 (pp. 210-219). ACM.
+
+Ruiz, S., Charleer, S., Urretavizcaya, M., Klerkx, J., Fernández-Castro, I., & Duval, E. (2016). Supporting learning by considering emotions: tracking and visualization a case study. In Proceedings of the Sixth International Conference on Learning Analytics & Knowledge (pp. 254-263). ACM.
+
+Schwendimann, B. A., Rodriguez-Triana, M. J., Vozniuk, A., Prieto, L. P., Boroujeni, M. S., Holzer, A., ... & Dillenbourg, P. (2017). Perceiving learning at a glance: A systematic literature review of learning dashboard research. IEEE Transactions on Learning Technologies, 10(1), 30-41.
+
+Tabuenca, B., Kalz, M., Drachsler, H., & Specht, M. (2015). Time will tell: The role of mobile learning analytics in self-regulated learning. Computers & Education, 89, 53-74.
+
+Yousuf B., Conlan O. (2015) VisEN: Motivating Learner Engagement Through Explorable Visual Narratives. In: Conole G., Klobučar T., Rensing C., Konert J., Lavoué E. (eds) Design for Teaching and Learning in a Networked World. Lecture Notes in Computer Science, vol 9307. Springer, Cham. DOI: 10.1007/978-3-319-24258-3_27
+
+3.3 Dashboard evaluation
+3.3.1 Evaluation criteria
+
+An analysis of 26 learner dashboards identified twelve evaluation criteria that were grouped into six evaluation levels (Jivet et al, 2018). The first four levels assess changes in the metacognitive, cognitive, behavioural and emotional competences, while the fifth level was added to account for dashboard effects on the level of self-regulated learning in users. Finally, the sixth level was included to cover aspects related to the usability of the dashboard. The table below shows the criteria that fall under each evaluation level.
+
+Evaluating a dashboard's acceptance, usefulness and ease-of-use as perceived by learners is the most common dashboard evaluation criteria. Very often, dashboard creators used feedback questionnaires and interviews to confirm that learners are satisfied and find the visualisations useful. This is not surprising considering perceived ease-of-use as a significant factor that influences the adoption of learning analytics tools. However, although tool usability is essential, this should be a secondary focus of the evaluation, and the primary focus should be whether the dashboard brings any benefit to learners, e.g. by making use of the EFLA by Scheffel et al. (2017). There are very few dashboards that were evaluated whether they have any influence on learners’ motivation or emotions. Learners' positive and negative emotions have been shown to have a big influence on online learning behaviour and certain features of learning analytics dashboards can lead to feelings of disappointment, intimidation or stress (Tan et al., 2016). Evaluating changes in learners' affect and motivation when using dashboards could lead to more effective and accommodating dashboards, contributing to  a wide-spread use of dashboards.
+
+3.3.2 Evaluation data
+Data used in the evaluation of dashboards can be classified into data self-reported by learners, tracked data that was automatically collected by an online learning environment, and assessment data that measure learners’ academic performance. 
+
+Self-reported data is collected through surveys, interviews and focus group. Such data is used to evaluate changes on the metacognitive level by asking students to interpret data displayed on the dashboard and make recommendations of action and changes on the emotional level by asking students to reflect on their learning experience and rate evaluate their emotional states, for example rate feelings of excitement, anger, boredom or curiosity. Feedback on tool usability is also requested from learners through surveys at the end of trial periods in which learners have used the dashboard. 
+
+Tracked data are automatically collected by the online learning environment and are used for assessing whether there had been any changes in learners' behaviour, i.e., the use of resources and the engagement with the online learning environment, or for measuring students performance, i.e., the quality of their learning artefacts. Learning artefacts are objects produced by learners during the learning process. Tracked data that describes the use of the dashboard itself could also be used to understand how users interact with the dashboard. 
+
+Assessment data is used to determine whether using the dashboard has any effect on students' performance measured through grades or graduation rate, measuring thus changes in the cognitive competences. 
+
+In order to reliably evaluate LA tools, researchers should validate subjective tool evaluations from learners, e.g., from feedback surveys, interviews and focus groups, with objective data extracted from trace logs and assessment data in order to answer the question whether the dashboard effect perceived by learners can also be observed in their interaction with the online learning environment and whether the learning outcomes have improved.
+
+References mentioned in this section:
+Jivet, I., Scheffel, M., Specht, M., & Drachsler, H. (2018). License to evaluate: Preparing learning analytics dashboards for educational practice. In Proceedings of International Conference on Learning Analytics and Knowledge, Sydney, NSW, Australia, March 7–9, 2018 (LAK ’18).
+
+Scheffel, M., Drachsler, H., Toisoul, C., Ternier, S., & Specht, M. (2017). The Proof of the Pudding: Examining Validity and Reliability of the Evaluation Framework for Learning Analytics. In E. Lavoué, H. Drachsler, K. Verbert, J. Broisin, & M. Pérez-Sanagustín (Eds.), Data Driven Approaches in Digital Education: Proceedings of the 12th European Conference on Technology Enhanced Learning (EC-TEL 2017), LNCS: Vol. 10474 (pp. 194–208). Berlin, Heidelberg: Springer.
+
+Tan, J. P. L., Yang, S., Koh, E., & Jonathan, C. (2016, April). Fostering 21st century literacies through a collaborative critical reading and learning analytics environment: user-perceived benefits and problematics. In Proceedings of the sixth international conference on learning analytics & knowledge (pp. 430-434). ACM.
+
+3.4 Recommendations for designing dashboards
+The following recommendations are based on literature reviews of existing dashboards and published in (Jivet et al, 2018) and (Bodily & Verbert, 2017).
+
+Define the goal of the dashboard and desired impact on the learners. LA dashboards should be designed as pedagogical tools that enhance awareness and reflection as a means to catalyse changes in the cognitive, behavioural and emotional competences.
+Research educational concepts and learning theories from learning sciences that provide theoretical grounding for the goal of the dashboard and motivate the design decisions.
+Describe data that supports the goal based on what data is needed, not on what data the system currently collects. Once you have defined what data you need, you can find ways to obtain it.
+Experiment with different visualisation types taking into account what type best fits your data and the data literacy of your target group. 
+The dashboard might not have the same effect on all its users, but rather seek to determine which group of learners benefit the most and how to customise the dashboard to provide the same support to all its users.
+Use comparison with peers cautiously. Make sure the needs of the target group are aligned with the goal of your dashboard.
+Seamlessly integrate the dashboard into the online learning environment and into the usual learning activities of the learner.
+Dashboard evaluation should focus (primarily) on whether its goals are fulfilled, (secondarily) on the impact on learners' affect and motivation, and (finally) on the usability of the tool.
+The evaluation of a tool's usability and usefulness should not be limited to whether users find the tool usable and useful, but in order to build trust and confidence in learning analytics tools, it should also assess whether learners understand the data, how much they agree with it and how they interpret it.
+Dashboard evaluation should use data triangulation to validate its effects with self-reported data, tracked data as well as assessment data.
+
+References mentioned in this section:
+Bodily, R., & Verbert, K. (2017). Review of research on student-facing learning analytics dashboards and educational recommender systems. IEEE Transactions on Learning Technologies, 10(4), 405-418.
+
+Jivet, I., Scheffel, M., Specht, M., & Drachsler, H. (2018). License to evaluate: Preparing learning analytics dashboards for educational practice. In Proceedings of International Conference on Learning Analytics and Knowledge, Sydney, NSW, Australia, March 7–9, 2018 (LAK ’18). Available at: http://dspace.ou.nl/handle/1820/9138.
+
+3.5 Dashboard case studies
+The next section presents several learning analytics dashboard case studies. Each dashboard is described in terms of purpose, data used, visualisation offered and the evaluation results.
+3.5.1 Micro level (learner)
+The micro-level addresses the needs of learners in a single course. Dashboard goals can be categorised based on  the  competence  they  aimed  to  affect  in  learners:  
+
+Metacognitive: supporting awareness and reflection, monitoring progress, supporting planning
+Cognitive: supporting goal achievement and improving learning performance
+Behavioural: improving retention and engagement, improving online social behaviour, improving help-seeking behaviour, offering navigational support
+Emotional: deactivating negative emotions, increasing learning motivation
+
+Dashboards aimed at learners have the potential to be used as powerful metacognitive tools for learners, triggering them to reflect and examine their learning behaviour and learning outcomes (Charleer, Klerkx, Duval, De  Laet, & Verbert, 2016). However, being aware does not imply that actions are being taken and learning outcomes are improved. Reflection should be considered a mechanism through which learning and teaching can be improved rather than an end in itself. Therefore, LA dashboards should be designed and evaluated as pedagogical tools which catalyse changes also in the cognitive, behavioural or emotional competencies, and not only on the metacognitive level.
+3.5.1.1 The Learning Tracker
+Learning Tracker (Davis et al., 2017; Jivet, 2016) is an interactive widget developed for massive open online courses (MOOCs) with the aim of supporting the development of self-regulated learning skills by triggering MOOC learners to reflect on their learning behaviour. The Learning Tracker relies on the social comparison theory which states that in the absence of objective means of comparison, people evaluate their abilities by comparison to others (Festinger, 1954). On the widget, learners can visualise their learning behaviour and compare it to that of graduates of previous editions of the same MOOC. 
+
+The Learning Tracker uses low-level data from trace logs and condenses it into indicators that describe several learning habits and it focuses on three aspects of effective learner behaviour: course material coverage, the level of engagement with the platform and time management as a self-regulated learning skill. Engagement and time management metrics describe behaviour, whereas course coverage indicators measure learner's progress. The data is displayed on a spider chart which allows a concise visualisation of numerous indicators in a small space, eases the evaluation of one’s performance across all indicators and offers and easily comparable medium as the learner profiles are represented by differently coloured areas that can be stacked. By hovering over any data point, a tool-tip  is displayed with the actual values of the indicator for all the learner profiles. 
+
+The Learning Tracker was evaluated in four live MOOC offered on the edX platform engaging over 20.000 learners. The results showed that the Learning Tracker significantly increases course completion rates in MOOCs. Also, the system generates desirable changes in learner engagement, as more learners attempt more assignments. Interestingly, this effect was obtained regardless of what indicators were provided to them on the widget. On the downside, The Learning Tracker did not have the same effect on all learners but it only helped to improve the achievement (final grade) of learners who were already highly educated.
+
+3.5.1.2 The Activity Widget
+The Activity Widget is an awareness widget developed for collaborative learning courses with the aim of providing students explicit information on the activity of group members to stimulate awareness, reflection and social interaction. The widget is based on the idea that   providing group awareness to students might alleviate interaction and communication  problems often encountered in group work (Kirschner et al., 2015). Its aim is to make students aware of their own platform activity relative to that of the group and of differences in activity between the group members. The widget also aims at fostering reflection about how their behaviour influences their future status, i.e. in relation to their position within the group and in relation to their course outcome. 
+
+The widget, available for download under GNU GPL version 2 (Slootmaker et al., 2015), can be embedded within an Elgg environment as a plugin to make students aware of and reflect on their activity level within the environment relative to other group members and the group average. The widget contains information about the users’ platform activities with two subsections, i.e. the cumulative view and the periodic view. Platform activity is expressed in five widget indicators: ‘W1 initiative’, ‘W2 responsiveness’, ‘W3 presence’, ‘W4 connectedness’, and ‘W5 productivity’. The widget indicator scores are automatically calculated from activity data recorded by the platform. The students’ activity is visualised in a radar chart, with five axes for the five widget indicators. When hovering with the mouse over the labels of the axes, the definition of the widget indicator is displayed. When pointing with the cursor at the dots in the chart, the corresponding widget indicator score is displayed.
+
+The ‘Cumulative activity’ radar chart presents the widget indicator scores for the whole run of the course, i.e. from the beginning of the course until the current date. In this and all other charts, orange is used for a user’s own scores (‘Me’), and blue for the group average (‘Group’). The scores in the radar chart are scaled from 0 to 10. For each widget indicator, the group member with the highest activity gets a score of 10 and the scores of the other members are scaled accordingly. The colour coding also applies to the ‘My activity’ bar chart. The orange bar shows a user’s average activity, i.e. average of the widget indicators ‘W1 initiative’, ‘W2  responsiveness’, ‘W3 presence’ and ‘W4 connectedness’, compared to the average of the entire group (blue bar). The ‘Periodic activity’ radar chart presents the widget indicator scores per month. Users can choose the specific month with a slider below the chart.
+
+In order to facilitate group performance by enabling co- and self-regulation processes, the widget indicator scores of the individual members of a group are visualised. Inspired by the DELICATE checklist and the GDPR 2018, a Reciprocal Privacy Model (RPM) is implemented into the widget. The RPM enables users to decide how they would like to share their data. A target user can only see the individual performance of other users if he also agrees to share his own data with the rest of the users. If a user disagrees with sharing his data, he will only see his own performance in comparison to the group average value. 
+
+In a series of experiments where the widget was implemented in the collaborative online learning environment of the European Virtual Seminar, Scheffel et al. (2017a; 2017b)  examined the predictive power of the widget indicators towards the students’ grades of this course in comparison to the data from previous years where the widget had not been in use. The results indicate that the widget indicator ‘responsiveness’, i.e. the number of response posts made on the course’s platform, is a significant positive predictor towards the grades. In the years without the widget, the students’ behaviour of the first few months of the course held more predictive power, whereas in the year where the widget was implemented into the platform, the last few months of the course had a higher predictive potential. This, in combination with the results from a quantitative as well as qualitative evaluation of the activity  widget during the course, suggests that the differences between the years could be explained by the use of the widget and its effective fostering of awareness and reflection.
+3.5.2 Meso level (instructor/teacher)
+Dashboards on the meso level are aimed at teachers and instructors and they inform them of a student's learning status and support them in performing their roles effectively in areas including class management, learning facilitation, provision of feedback, and evaluation and grading (Park & Jo, 2015).
+
+Course Signals from Purdue University in Indiana, USA is one of the first and most known learning analytics dashboards. Signals was designed as an ‘early warning system’ that helps students to understand how they are progressing through their courses early enough so that they can seek help. By increasing student success at the course level, Signals aims to increase the overall retention and graduation rates at an institutional level. Signals integrates both static and dynamic data from the virtual learning environment (VLE), the student information system (SIS) and the gradebook. These data are processed by a predictive algorithm that determines how much at-risk of failing each student is. The predictive algorithm has four weighted components:
+Performance - the percentage of points earned so far in the course
+Effort - the interaction with the VLE in comparison with peers
+Prior academic history - academic preparation, high-school GPA and standardised test scores
+Demographic data - for example, residency, age, credits attempted. 
+
+The predictions of the algorithm are generated at the request of the course teacher and the results are displayed on a student’s course homepage through an intuitive ‘traffic light’ indicator with a red, yellow or green signal. A red light indicates a high probability of being unsuccessful, yellow suggests a potential problem of succeeding and a green signal signifies a high likelihood of succeeding in the course. Next, the instructors can intervene by sending personalised emails to the students, text them, refer them to an academic advisor or set up face to face meetings with the students. 
+
+Course Signals was evaluated on student academic performance, measured by final course grades, and student behaviour, quantified by interactions with the VLE and help-seeking behaviour between 2007 and 2009. In terms of final grades, students in courses that used Course Signals were awarded 10% more As and Bs than those in previous courses which did not use Signals. The study also registered a decrease in unsatisfactory grades and withdrawals. In terms of behaviour, students that were using Signals asked for help earlier and more frequently than those who did not take part in the pilot runs. Even after the interventions stopped, these students were seeking help 30% more often than those in the control group. Direct feedback from students revealed that Signals offered a positive experience for 89% of students and  74% said their motivation was positively affected by using it. Similarly, faculty and instructors had a positive response towards Signals, but many were hesitant and showed caution. 
+3.5.3 Macro level (institutional)
+Dashboards on the macro level take a bird view on a directory of courses and can provide insights for a whole community by monitoring learning behaviour across courses and even across different scientific disciplines.
+
+Student Explorer is an early warning system deployed at the University of Michigan, USA. Student Explorer aims to support academic advisors in identifying students at risk and creating timely interventions to direct students towards resources or behavioural changes that enable student success. The predictive algorithm classifies students into risk classes based on their academic performance and the effort they invested in multiple courses, both components being highly correlated with students success. Academic performance is measured by data from the learning management system (LMS) gradebook and assignment tools. Student effort is measured by course website login information. The student risk categories are labeled with the most appropriate action to be taken by the academic advisor: encourage for students that are high-performing, explore for students that are potentially facing difficulties and engage for low-performing student. 
+
+The interface of the system was developed iteratively and offers academic advisors several views. The summary screen contains an “alert” box that indicates which students are at risk and a bar chart with the most recent students and class average percentage of total available points across course next to a tabular representation of the same data. On the detailed class screen, advisors can inspect a list of all students’ academic performance and at-risk classification, the percentage of points earned over the time of a student vs. the class average and the weekly LMS site visits percentile. 
+
+Student Explorer was initially introduced in Winter 2011 and evaluated in several studies. In one study, student’s second-year grade point averages (GPA) increased after the academic advisors used the system (Krumm et al., 2014). In another study, academic advisors started using the detailed class screen in face-to-face meetings with students. Today, Student Explorer supports 67 academic advisors, reaching 16.600 students. 
+
+References mentioned in this section:
+Arnold, K. E., & Pistilli, M. D. (2012). Course signals at Purdue: Using learning analytics to increase student success. In Proceedings of the 2nd international conference on learning analytics and knowledge (pp. 267-270). ACM.
+
+Charleer, S., Klerkx, J., Duval, E., De Laet, T., & Verbert, K. (2016). Creating effective learning analytics dashboards: Lessons learnt. In European Conference on Technology Enhanced Learning (pp. 42-56). Springer, Cham.
+
+Davis, D., Jivet, I., Kizilcec, R. F., Chen, G., Hauff, C., & Houben, G. J. (2017). Follow the successful crowd: raising MOOC completion rates through social comparison at scale. In Proceedings of the Seventh International Learning Analytics & Knowledge Conference (LAK '17). ACM, New York, NY, USA, 454-463. DOI: 10.1145/3027385.3027411
+
+Festinger, L. (1954). A theory of social comparison processes. Human relations, 7(2), 117-140.
+
+Jivet, I. (2016). The Learning Tracker: A Learner Dashboard that Encourages Self-regulation in MOOC Learners. Available at: https://repository.tudelft.nl/.
+
+Kirschner, P., Kreijns, K., Phielix, C., and Fransen, J. (2015). Awareness of cognitive and social behaviour in a CSCL environment. Journal of Computer Assisted Learning, 31(1):59–77. 
+
+Krumm, A. E., Waddington, R. J., Lonn, S., & Teasley, S. D. (2014).A Learning Management System-Based Early Warning System for Academic Advising in Undergraduate Engineering. In: Larusson J., White B. (eds) Learning Analytics. Springer, New York, NY. DOI: 10.1007/978-1-4614-3305-7_6
+
+Lonn, S., & Teasley, S. D. (2014). Student explorer: A tool for supporting academic advising at scale. In Proceedings of the first ACM conference on Learning@ scale conference (pp. 175-176). ACM.
+
+Lonn, S., Aguilar, S. J., & Teasley, S. D. (2015). Investigating student motivation in the context of a learning analytics intervention during a summer bridge program. Computers in Human Behavior, 47, 90-97.
+
+Scheffel, M., Drachsler, H., de Kraker, J., Kreijns, K., Slootmaker, A., & Specht, M. (2017a). Widget, widget on the wall, am I performing well at all? IEEE Transactions on Learning Technologies, 10(1), 42-52. DOI: 10.1109/TLT.2016.2622268 
+
+Scheffel, M., Drachsler, H., Kreijns, K., De Kraker, J., & Specht, M. (2017b). Widget, Widget As You Lead, I Am Performing Well Indeed!: Using Results from an Exploratory Offline Study to Inform an Empirical Online Study About a Learning Analytics Widget in a Collaborative Learning Environment. In Proceedings of the Seventh International Conference on Learning Analytics and Knowledge, LAK ’17 (pp. 289–298). New York, NY, USA. ACM. DOI: 10.1145/3027385.3027428. 
+
+Sclater, N., Peasgood, A., & Mullan, J. (2016). Learning analytics in higher education. A review of UK and international practice. Full report. JISC. Publiziert unter der Lizenz CC BY, 4(22.04), 2016.
+
+Slootmaker, A., Scheffel, M., Krijns, K., De Kraker, J., & Drachsler, H. (2015). Performance Dashboard to Support Awareness and Reflection in Elgg communities (version 1.15) [Software]. Heerlen, The Netherlands: Open Universiteit. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

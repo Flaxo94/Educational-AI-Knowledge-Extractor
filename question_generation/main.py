@@ -1,5 +1,5 @@
 import os
-from extract_file_content import read_files, read_pdf
+from extract_file_content import read_files, read_pdf, read_txt
 from generate_qa import automate_qa
 from pipelines import pipeline
 from pprint import pprint
@@ -38,15 +38,25 @@ print()
 
 # 2. aus file den inhalt holen und als string speichern
 filename = "guitar.pdf"
-text = read_pdf(filename).lower()
+filename = "EduTec_4_weeks_LA_lecture[2772] - no references.txt"
+#text = read_pdf(filename).lower()
+text = read_txt(filename).lower()
 with open("out.txt", "w") as f:
 	f.write(text)
-print("guitar.pdf gelesen:\n")
-print(text, "\n") if debug else None
+print(f"{filename} gelesen:\n")
+print([text], "\n") if debug else None
 
 # 3. qa pairs generieren
-qa_pairs = nlp(text)
-print(qa_pairs, "\n") if debug else None
+qa_pairs = []
+for i in text.split("\n\n"):
+	try:
+		qa_pair = nlp(i.replace("\n", ""))
+	except:
+		continue
+	else:
+		print(qa_pair, "\n") if debug else None
+		qa_pairs.extend(qa_pair)
+	
 
 # 4. yml dateien füllen
 automate_qa(text, qa_pairs, yml_files, filename)
