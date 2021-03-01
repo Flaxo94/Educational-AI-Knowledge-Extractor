@@ -1,0 +1,320 @@
+{'answer': 'open online education, seamless learning and new learning experiences', 'question': 'What are some topics that can be investigated in the field of educational technology at present?'}
+{'answer': 'collecting and estimating the prior knowledge of students for a certain subject, to the actual learning process and its assessment', 'question': 'What does the demand of using educational data to improve the whole learning and teaching cycle span?'}
+{'answer': 'almost all', 'question': 'How many disciplines do educational data science cut through?'}
+{'answer': 'the scope and scale of its potential impact for teaching and learning has increased by orders of magnitude over the last few years', 'question': 'What is the use of data to inform decision-making in education and training?'}
+{'answer': 'previously unimagined levels of granularity and variety', 'question': 'At what stage can data be automatically harvested?'}
+{'answer': 'contribute to economic and social well-being of the society', 'question': 'What does data help to improve outcomes for all learners?'}
+{'answer': 'learning analytics', 'question': 'What is the term for research questions from overlapping research domains such as psychology, educational science, computer and data science?'}
+{'answer': 'learning analytics', 'question': 'What is explored in more detail in the following sections?'}
+{'answer': 'research, studies and applications that try to understand and support the (study and learning) behaviour of learners based on large sets of collected data', 'question': 'What is learning analytics currently used for?'}
+{'answer': 'learning analytics', 'question': 'What was the first international conference on learning analytics?'}
+{'answer': 'surveys, interviews, and assessments', 'question': 'How was collecting data done?'}
+{'answer': 'cost', 'question': 'What was the cost of collecting data?'}
+{'answer': 'digital learning environments', 'question': 'What has made data collection part of delivering educational content to the students?'}
+{'answer': 'the mining of student data', 'question': 'What is learning analytics?'}
+{'answer': 'reich', 'question': 'Who demanded learning analytics to provide different levels of insights?'}
+{'answer': 'buckingham shum', 'question': 'Who introduced the notion of micro-, meso- and macro-levels?'}
+{'answer': 'the needs of individuals', 'question': 'What does the micro-level address?'}
+{'answer': 'the students', 'question': 'The micro-level mainly addresses the needs of individuals within a course, e.g. who within a course?'}
+{'answer': 'different objectives and information are of relevance', 'question': 'Depending on which level the learning analytics takes place?'}
+{'answer': 'the society of learning analytics research', 'question': 'Who developed the five step sophistication model of learning analytics?'}
+{'answer': 'privacy and ethics', 'question': 'What are the concerns raised by governments, stakeholders and civil rights groups about?'}
+{'answer': 'greller and drachsler', 'question': 'Who provided a comprehensive introduction to the different domains that are affected by learning analytics?'}
+{'answer': 'six', 'question': 'How many dimensions do greller and drachsler present the technological and educational aspects of learning analytics?'}
+{'answer': 'external constraints', 'question': 'What do stakeholders, objectives, data, instruments, and internal limitations generate?'}
+{'answer': 'what are the needs of your educational stakeholders for a learning analytics solution and how can they be involved in the software development process', 'question': 'What are the guiding questions for your learning analytics concept?'}
+{'answer': 'shortcomings of an educational system', 'question': 'What can be identified and innovated with learning analytics?'}
+{'answer': 'what kind of online learning tools are used in your target organisation', 'question': 'What are the guiding questions for your learning analytics concept?'}
+{'answer': 'which of those do you have access to the data', 'question': 'What do you need to know about the online learning tools?'}
+{'answer': 'where and how could you extract data from the online learning tools', 'question': 'How could you extract data from the online learning tools?'}
+{'answer': 'technologies, algorithms, and theories', 'question': 'What are the instruments that carry learning analytics?'}
+{'answer': 'machine learning, social network analysis, or classical statistical analysis techniques', 'question': 'What can learning analytics take advantage of in combination with visualisation techniques?'}
+{'answer': 'tailored information-support systems', 'question': 'What can learning analytics contribute to the stakeholders?'}
+{'answer': 'drop-out alert system', 'question': 'What could learning analytics be used to identify students that are in danger of dropping out?'}
+{'answer': 'what are meaningful visualisations of learning analytics data for different target groups', 'question': 'What are the guiding questions for your learning analytics concept?'}
+{'answer': 'accuracy and precision values', 'question': 'What do machine learning algorithms correlate with user satisfaction of a learning analytics system?'}
+{'answer': '1.3.5', 'question': 'What is the term for external constraints?'}
+{'answer': 'inbloom', 'question': 'What kind of privacy concerns have led to the closure of in the U.S.?'}
+{'answer': 'learning analytics’ ethics and privacy and potential solutions', 'question': 'What have few papers been published relating to until now?'}
+{'answer': 'open university uk', 'question': 'Which university has first policies and guidelines regarding privacy, legal protection rights and ethical implications available?'}
+{'answer': 'an eight-point checklist', 'question': 'What does the article by drachsler & greller conclude with?'}
+{'answer': 'fundamental research questions and innovative technological solutions', 'question': 'What are needed to find answers to the issues mentioned in the questions below?'}
+{'answer': 'ethics and privacy', 'question': 'How can a value-based design be considered in the software development process for learning analytics solutions?'}
+{'answer': 'efla', 'question': 'What is one example of a ready-built tool that can measure the effects of learning analytics on your stakeholders?'}
+{'answer': 'competence profile of the stakeholders', 'question': 'How can these skills become part of in the future?'}
+{'answer': '2.0', 'question': 'How many week 2 starts pagewelcome to week 2 of the learning analytics course?'}
+{'answer': 'critical challenges', 'question': 'What will we discuss for the implementation of learning analytics in a target organisation?'}
+{'answer': 'ethics and privacy', 'question': 'What topics will we first address for learning analytics?'}
+{'answer': 'what a learning analytics-supported learning design looks like', 'question': 'What does the efla look like in a learning analytics-supported learning design?'}
+{'answer': 'efla', 'question': 'What is an instrument that provides an easy but effective way of measuring the impact of learning analytics for the educational stakeholders?'}
+{'answer': 'learners and teachers', 'question': 'The efla provides an easy but effective way of measuring the impact of learning analytics for what stakeholders?'}
+{'answer': 'introductory video', 'question': 'Before you start reading the sections below, please have a look at what?'}
+{'answer': 'complete the assignment', 'question': 'What do you need to do once you have worked through all sections of this week?'}
+{'answer': '2.1', 'question': 'What is ethics and privacy for learning analytics?'}
+{'answer': 'analytics', 'question': 'What is the purpose of ethics and privacy?'}
+{'answer': 'privacy and ethics', 'question': 'What concerns have the widespread adoption of learning analytics in educational institutions lately?'}
+{'answer': 'uncertainty', 'question': 'What is the result of a mixed-up of fears and realities?'}
+{'answer': 'inbloom', 'question': 'What is a prominent example of the issue in the us?'}
+{'answer': 'more than $100m', 'question': 'How much grant funding did the gates and carnegie found\xadations receive?'}
+{'answer': 'ethics', 'question': 'What is the philosophy of moral that involves systematising, defend\xading, and recommending concepts of right and wrong conduct?'}
+{'answer': '1949', 'question': 'When did the first basic written principles for ethical research originate?'}
+{'answer': 'research ethics', 'question': 'What is the first mani\xadfest for?'}
+{'answer': 'big data and cloud computing', 'question': 'What types of challenges have emerged with the rise of ethical committees at big data companies like facebook?'}
+{'answer': '2014', 'question': 'When was the facebook contagion study?'}
+{'answer': '650,000', 'question': 'How many face-book users were manipulated without notification or collecting informed consent?'}
+{'answer': 'user community', 'question': 'The reaction to the Facebook contagion study has been massive among what group?'}
+{'answer': 'the right to privacy', 'question': 'What is a basic human right and an established element of the legal systems in developed countries?'}
+{'answer': 'warren & brandeis', 'question': 'Who wrote an article about the right to privacy?'}
+{'answer': '1968', 'question': 'When did westin develop the right to privacy?'}
+{'answer': 'right of informational self-determination', 'question': 'What did westin define privacy as?'}
+{'answer': 'flaherty', 'question': 'Who claimed networked computer systems pose a threat to privacy?'}
+{'answer': 'data protection', 'question': 'What did roessler first define as an aspect of privacy?'}
+{'answer': 'fair information practices', 'question': 'What do governments use data protection as a foundation for?'}
+{'answer': 'roessler', 'question': 'Who later operationalised the right to privacy across three dimensions?'}
+{'answer': 'privacy is not the same as anonymity or data security', 'question': 'What is important to note about the right to privacy?'}
+{'answer': 'they are related concepts that have an effect on privacy, but do not represent privacy as such', 'question': 'What are related concepts that have an effect on privacy?'}
+{'answer': 'ethics', 'question': 'What is a moral code of norms and conventions that exists in society externally to a person?'}
+{'answer': 'over time and cultures', 'question': 'How does the understanding of what constitutes ethical behaviour fluctuate?'}
+{'answer': 'privacy', 'question': 'What forms the boundary of one’s person or identity against other entities?'}
+{'answer': 'the personal boundaries', 'question': 'What does the ethical code of the surrounding society conflict with?'}
+{'answer': 'new modes of learning and teaching in higher education', 'question': "What is the european commission's report about learning analytics?"}
+{'answer': 'the commission', 'question': 'Who stated that member states should ensure that legal frameworks allow higher education institutions to collect and analyse learning data?'}
+{'answer': 'the full and informed con\xadsent of students must be a requirement and the data should only be used for educational purposes', 'question': 'What is a requirement for the full and informed con\xadsent of students?'}
+{'answer': 'anonymise', 'question': 'What should individuals always have the choice to do?'}
+{'answer': 'personal data', 'question': 'What was defined by the eu data protection directive 95/46/ec?'}
+{'answer': '95/46/ec', 'question': 'What directive defined personal data as “any information related to an identified or identifiable natural person (data sub\xadject); an identifiable person is one who can be'}
+{'answer': 'the nuremberg code', 'question': 'What ethical framework did the european commission follow with this directive?'}
+{'answer': 'the eu directive 95/46/ec', 'question': 'What has been replaced by the general data protection regulation?'}
+{'answer': 'by design and by default', 'question': 'What does the gdpr promote?'}
+{'answer': 'learning analytics and the handling of personal data', 'question': 'What are the following points important when it comes to?'}
+{'answer': '2018', 'question': 'When was the gdpr formed?'}
+{'answer': 'data portabilityright', 'question': 'Right to restrict processingright to what?'}
+{'answer': 'governancebreach notificationtransfer', 'question': 'What type of notification does the right to restrict processingright to data portabilityright to objectright related to automated decision making and profilingaccountability'}
+{'answer': 'over 100', 'question': 'How many experts participated in the ep4la?'}
+{'answer': 'ethical and privacy', 'question': 'What aspects of learning analytics are available from their research efforts?'}
+{'answer': 'a showstopper', 'question': 'What can privacy be?'}
+{'answer': 'privacy-conform', 'question': 'What type of learning analytics can be beneficial to all stakeholders?'}
+{'answer': 'european consortium', 'question': 'Who conducts the research around trusted learning analytics?'}
+{'answer': 'the open university of the netherlands', 'question': 'What is the center of trusted learning analytics founded by the goethe university frankfurt and the german leibniz institute of educational research?'}
+{'answer': 'data protection', 'question': 'What is not seen as a mere legal requirement in a trusted learning analytics consortium?'}
+{'answer': 'trusting relationships with stakeholders', 'question': 'What is privacy a valuable service that can be offered to build?'}
+{'answer': 'to release the full potential of learning analytics with practical tools', 'question': 'What is the aim of the consortium?'}
+{'answer': 'value-sensitive design processes', 'question': 'What is the design of the products done according to?'}
+{'answer': 'ethical considerations', 'question': 'What helps to develop a trusted learning analytics system that achieves its aims?'}
+{'answer': 'community source project', 'question': 'What is the trusted learning analytics infrastructure available as?'}
+{'answer': 'the infrastructure', 'question': 'What is the first big data system that takes the gdpr into account?'}
+{'answer': 'learning analytics process', 'question': 'What is the first big data system that takes the gdpr into account and provides practical functions to empower the data subject?'}
+{'answer': 'learning analytics indicators', 'question': 'What is a measure point for educational interventions?'}
+{'answer': 'little research', 'question': 'What is the actual use of learning analytics in educational practice?'}
+{'answer': 'instructional design', 'question': 'What is the process where a teacher or educational designer works on all phases of an instruction?'}
+{'answer': 'digitally available', 'question': 'What are teaching activities and resources most of the time also available?'}
+{'answer': 'toetenel', 'question': "What is the name of the 'rienties' that offers opportunities to use learning analytics as part of the learning environment and the learning activities?"}
+{'answer': 'learning analytics-supported learning design', 'question': 'What is crucial for a teacher or educational designer to already consider potential learning analytics indicators while designing the learning objectives and various activities?'}
+{'answer': 'forum discussion activity', 'question': 'What is one example for a learning design?'}
+{'answer': 'specific indications of success or failure', 'question': 'What does a forum discussion activity have depending on its design?'}
+{'answer': 'dashboard', 'question': 'What can learning analytics provide the measures that provide a much more efficient overview about on-going discussions and participation than just looking at the discussion forum in '}
+{'answer': 'social network analysis', 'question': 'What is another example of open source analytics?'}
+{'answer': 'quality of the contributions', 'question': 'What does learning analytics show?'}
+{'answer': 'dc4e', 'question': 'What is a general framework to guide designers through different stages of producing and delivering instructional products?'}
+{'answer': 'concrete instructional design solutions', 'question': 'What do instructional design models need to be operationalised into?'}
+{'answer': 'learning design research', 'question': 'What is a challenging task that has not been done so far in the context of?'}
+{'answer': 'the tools embedded in an online learning environment', 'question': 'What are useful for designing learning experience of students?'}
+{'answer': 'what and how to do with them', 'question': 'What must be an appropriate instruction about?'}
+{'answer': 'arranging learning activities in such a way as to stimulate effective, efficient and enjoyable learning experiences', 'question': 'What is the purpose of a quick scan of the literature?'}
+{'answer': '2.2.2', 'question': 'What type of learning design models are there a plethora of learning designs, approaches or theories?'}
+{'answer': 'learning theories', 'question': 'What are most of the learning design models based on?'}
+{'answer': 'concrete instructional episodes and activities compatible with cognitive processes involved in learning', 'question': 'What do learning design approaches usually attempt to operationalise the principles of general learning theories into?'}
+{'answer': '2012', 'question': 'In what year did the learning design approach begin to address a specific learning problem?'}
+{'answer': 'evidence-based learning design approaches', 'question': 'What can be included into an integrated learning design model?'}
+{'answer': 'four', 'question': 'How many component instructional design models are there?'}
+{'answer': 'summative-based ones', 'question': 'What are the most obvious learning analytics indicators?'}
+{'answer': 'page access, time on task or a successful submission of an assignment', 'question': 'What are some quantitative measures of learning analytics?'}
+{'answer': 'register whether somebody did something but they are not informative enough', 'question': 'What do learning analytics check points help to do?'}
+{'answer': 'data science, business intelligence, marketing, and recommendation systems', 'question': 'What does technology-enhanced learning analytics borrow heavily from?'}
+{'answer': 'artificial intelligence', 'question': 'What type of learning adaptation has strong roots in?'}
+{'answer': 'reasoning', 'question': 'What would help to better understand the learning analytics phenomenon?'}
+{'answer': 'one-size-fits-all', 'question': 'What type of approach does learning analytics have?'}
+{'answer': 'their learning design', 'question': 'What does every organisation need to review if their technical infrastructure is suited for learning analytics?'}
+{'answer': 'week 3', 'question': 'In what week will you learn about learning analytics dashboards?'}
+{'answer': 'learning analytics dashboards', 'question': "What do you learn about in this week's learning analytics course?"}
+{'answer': 'introductory video', 'question': 'Before you start reading the sections below, please have a look at what?'}
+{'answer': 'complete the assignment', 'question': 'What do you need to do once you have worked through all sections of this week?'}
+{'answer': 'learning dashboard', 'question': 'What is a visualisation tool built with the purpose of empowering different stakeholders to make informed decisions about the learning process?'}
+{'answer': 'learners, teachers, researchers or administrative staff', 'question': 'What types of stakeholders have dashboards been developed for?'}
+{'answer': 'formal learning', 'question': 'What scenario does most dashboards consider?'}
+{'answer': 'learning analytics dashboards', 'question': 'What combine the collected data into multiple indicators about learners?'}
+{'answer': 'verbert', 'question': 'Who presented a conceptual framework that describes the stages users go through while interacting with a learning analytics intervention?'}
+{'answer': '(2013)', 'question': 'In what year did verbert et al. present a conceptual framework that describes the stages users go through while interacting with a learning analytics'}
+{'answer': 'in a first stage', 'question': 'When is data presented in a visual form?'}
+{'answer': 'reflection', 'question': 'In what stage do users ask themselves questions assessing the accuracy, usefulness and relevance of the displayed data?'}
+{'answer': 'change their behaviour', 'question': 'When users answered questions and gained insights during the sensemaking phase, what is expected to happen to them?'}
+{'answer': 'three', 'question': 'How many aspects should a learning dashboard consider?'}
+{'answer': 'the indicators to be displayed on the dashboard and the visual representation of these data', 'question': 'What are two aspects of a learning dashboard?'}
+{'answer': 'self-regulated learning theory', 'question': 'What is the most common foundation for la dashboard design?'}
+{'answer': 'srl', 'question': 'What is achieved in cycles consisting of goal-setting and planning, performance and self-reflection?'}
+{'answer': 'to support the “reflection and self-evaluation” phase of srl', 'question': 'What are current dashboards built mostly?'}
+{'answer': 'constructivist', 'question': 'What type of learning concepts are rooted in the assumption that learners are information constructors and learning is the product of social interaction?'}
+{'answer': 'collaborative', 'question': 'What type of learning is common in multiple dashboards?'}
+{'answer': 'putting the learner at the centre of the learning process', 'question': 'In recent years, there is a strong emphasis on what?'}
+{'answer': '21st century skills and learning dispositions', 'question': 'What do more recent dashboard prototypes focus on?'}
+{'answer': 'bloom', 'question': 'What is the taxonomy of the dashboard?'}
+{'answer': 'ekmans model of emotions and facial expressions', 'question': 'What do learning analytics researchers rely on concepts that originate in the broader field of psychology?'}
+{'answer': 'jivet', 'question': 'Who et al. (2018) highlight three approaches for using research from learning sciences in developing and evaluating learning analytics dashboards?'}
+{'answer': 'three', 'question': 'How many approaches did jivet et al. highlight for using research from learning sciences in developing and evaluating learning analytics dashboards?'}
+{'answer': 'learning analytics researchers', 'question': 'Who can support decisions related to the dashboard design through educational concepts?'}
+{'answer': 'validated measurement instruments', 'question': 'What can learning analytics researchers use for assessing whether the tools support learners’ competences?'}
+{'answer': 'learning theories and other concepts', 'question': 'What can be used as a lens for understanding contrasting results when evaluating learners’ responses to using learning analytics dashboards?'}
+{'answer': 'context for which the dashboard is deployed', 'question': 'What do the data sources used to collect data for the dashboards vary based on?'}
+{'answer': '55', 'question': 'How many dashboards did schwendimann et al survey?'}
+{'answer': 'six', 'question': 'How many data sources did schwendimann et al. identify?'}
+{'answer': 'logs', 'question': 'What is the main data source for most dashboards?'}
+{'answer': 'one third', 'question': 'How many dashboards use the analysis of learning artefacts?'}
+{'answer': 'one', 'question': 'How many data sources do dashboards consider?'}
+{'answer': 'schwendimann et al', 'question': 'Who collected the most frequently used visualisation types?'}
+{'answer': '55', 'question': 'How many dashboard designs were collected by schwendimann et al. (2017)?'}
+{'answer': 'the target group of the dashboard', 'question': 'What is the choice of visualisation expected to depend on?'}
+{'answer': 'educational setting', 'question': 'What did not influence the type of visualisation chosen?'}
+{'answer': 'existing dashboards', 'question': 'What are the most common visualisation types extracted from?'}
+{'answer': 'word clouds, traffic lights, bubble charts, box plots, physical maps and doughnut charts', 'question': 'What are the most common visualisation types?'}
+{'answer': 'bar chartbar chart', 'question': "What is used in a student mobile dashboard to visualise a student's performance on an after-class quiz?"}
+{'answer': 'an after-class quiz', 'question': "What is a bar chartbar chart used in a student mobile dashboard to visualise a student's performance on?"}
+{'answer': 'engagement score', 'question': "What does a student's line graph show across course topics?"}
+{'answer': 'tableteacher dashboard', 'question': 'What is presented in a tabular form with each row representing a student and each column representing a topic of the course?'}
+{'answer': 'green or red arrow', 'question': 'What indicates how well the student is doing in the topic of the course?'}
+{'answer': 'how well they are doing in the whole course and how much intervention in needed from the teachers’ side', 'question': 'What are the students ordered according to?'}
+{'answer': 'a dashboard', 'question': 'Where is pie chartpie chart used for students?'}
+{'answer': 'heatmap', 'question': 'What do you generate?'}
+{'answer': 'heatmap', 'question': 'What do you generate?'}
+{'answer': 'heatmap', 'question': 'What do you generate?'}
+{'answer': 'heat', 'question': 'What map does this map generate?'}
+{'answer': 'heatmap', 'question': 'What do you generate?'}
+{'answer': 'heat', 'question': 'What map does this map generate?'}
+{'answer': 'a heatmap', 'question': 'What is used in student dashboard?'}
+{'answer': 'class average', 'question': 'The heatmap shows the student compared to what?'}
+{'answer': 'the class averages', 'question': 'What is the relationship between the total login time and the login frequency in comparison with the other students?'}
+{'answer': 'the total login time and the login frequency', 'question': 'What relationship does scatterplotscatterplot show in comparison to other students?'}
+{'answer': 'six', 'question': 'How many dimensions can students compare themselves to the group peers and the overall team score?'}
+{'answer': '0 to 5', 'question': 'What is the scale of radar chartvisualisation on a student dashboard of teamwork competency?'}
+{'answer': 'self-reported emotions while learning', 'question': "What is one visualisation of students' emotions?"}
+{'answer': 'the size', 'question': 'What represents the intensity of the emotion?'}
+{'answer': 'stacked bars', 'question': 'What allows learners to compare their emotions with the average of the group?'}
+{'answer': 'black line', 'question': 'The boxplot chart shows the timeline evolution of the group and the comparison to the student’s emotions represented with what?'}
+{'answer': 'first year', 'question': 'In what year did a student interact with course material?'}
+{'answer': 'traffic lights', 'question': 'What is the student analytics dashboard showing the extent to which a student has achieved her personal goals?'}
+{'answer': 'visualisation', 'question': 'What shows which concepts may need more attention of the student?'}
+{'answer': 'green', 'question': 'What light indicates the student is on track?'}
+{'answer': 'a representative reference frame', 'question': 'What do users need in order to easily interpret the data on the widget?'}
+{'answer': 'social', 'question': 'What are the three types of reference frames available for learners?'}
+{'answer': 'average of the class', 'question': 'What is a social reference frame usually?'}
+{'answer': 'goal achievement', 'question': 'What is the term for achievement?'}
+{'answer': 'an earlier self', 'question': 'What is a comparison of the three types of reference frames?'}
+{'answer': 'where in time the anchor for comparison is set', 'question': 'What are the three types of reference frames characterised by?'}
+{'answer': 'present', 'question': 'What does the social reference frame focus on?'}
+{'answer': 'achievement', 'question': 'What is a reference frame that directs learner attention to the future?'}
+{'answer': 'the progress reference frame', 'question': 'What is anchored in the past?'}
+{'answer': 'social framing', 'question': 'What is the most common reference frame?'}
+{'answer': 'to motivate students to work harder and increase their engagement', 'question': 'What is comparison with peers usually used to do?'}
+{'answer': 'learning dashboard research', 'question': 'What is little evidence that all learners feel motivated and their learning is improved when they are compared with their classmates?'}
+{'answer': 'lack of support for goal achievement and the prevalence of comparison', 'question': 'What fosters competition in learners?'}
+{'answer': 'by constantly being exposed to motivational triggers that rely on social comparison', 'question': 'What is the threat of being exposed to motivational triggers that rely on social comparison?'}
+{'answer': 'mastering knowledge, acquiring skills and developing competencies', 'question': 'What should learning and education be about?'}
+{'answer': 'la dashboards', 'question': 'What is research needed to investigate the effects of social comparison and competition in?'}
+{'answer': 'different performance levels', 'question': 'What are dashboards used as pedagogical tools to motivate learners?'}
+{'answer': '3.3.1', 'question': 'What are the criteria for a dashboard evaluation?'}
+{'answer': '3.3.1', 'question': 'What are the criteria for a dashboard evaluation?'}
+{'answer': 'evaluating a dashboards acceptance, usefulness and ease-of-use', 'question': 'What is the most common dashboard evaluation criteria?'}
+{'answer': 'feedback questionnaires and interviews', 'question': 'What did dashboard creators often use to confirm that learners are satisfied and find visualisations useful?'}
+{'answer': 'ease-of-use', 'question': 'What is a significant factor that influences the adoption of learning analytics tools?'}
+{'answer': 'whether the dashboard brings any benefit to learners', 'question': 'What should the primary focus of the evaluation be?'}
+{'answer': 'scheffel', 'question': 'Who made use of the efla?'}
+{'answer': '(2017)', 'question': 'What year did scheffel et al. make use of the efla?'}
+{'answer': 'there are very few dashboards that were evaluated whether they have any influence on learners’ motivation or emotions', 'question': 'What is the primary focus of the evaluation of a dashboard?'}
+{'answer': 'negative', 'question': 'What type of emotions have been shown to have a big influence on online learning behaviour?'}
+{'answer': 'evaluating changes in learners affect and motivation', 'question': 'What could lead to more effective and accommodating dashboards?'}
+{'answer': '3.3.2', 'question': 'What type of data can be classified into data self-reported by learners?'}
+{'answer': 'the online learning environment', 'question': 'Who collects tracked data?'}
+{'answer': 'learning artefacts', 'question': 'What are objects produced by learners during the learning process?'}
+{'answer': 'how users interact with the dashboard', 'question': 'What can tracked data be used to understand?'}
+{'answer': 'assessment data', 'question': 'What is used to determine whether using the dashboard has any effect on students performance measured through grades or graduation rate?'}
+{'answer': 'to reliably evaluate la tools', 'question': 'How do researchers validate subjective tool evaluations from learners?'}
+{'answer': '3.4', 'question': 'How many recommendations are made for designing dashboards?'}
+{'answer': 'define the goal of the dashboard and desired impact on the learners', 'question': 'What is the purpose of the dashboard?'}
+{'answer': 'la dashboards', 'question': 'What should be designed as pedagogical tools that enhance awareness and reflection as a means to catalyse changes in cognitive, behavioural'}
+{'answer': 'what type best fits your data and the data literacy of your target group', 'question': 'What do different visualisation types take into account?'}
+{'answer': 'the dashboard might not have the same effect on all its users', 'question': 'What might the dashboard have the same effect on all its users?'}
+{'answer': 'the target group are aligned with the goal of your dashboard', 'question': 'What should the needs of the target group be aligned with?'}
+{'answer': '3.5', 'question': 'How many dashboard case studies are presented?'}
+{'answer': 'purpose, data used, visualisation offered and the evaluation results', 'question': 'How is each dashboard described?'}
+{'answer': 'competence they aimed to affect in learners', 'question': 'What can dashboard goals be categorised based on?'}
+{'answer': 'deactivating negative emotions, increasing learning motivation', 'question': 'What is navigational supportemotional?'}
+{'answer': 'dashboards', 'question': 'What are aimed at learners?'}
+{'answer': 'actions are being taken and learning outcomes are improved', 'question': 'What does being aware do not imply?'}
+{'answer': 'reflection', 'question': 'What should be considered a mechanism through which learning and teaching can be improved rather than an end in itself?'}
+{'answer': 'la dashboards', 'question': 'What should be designed and evaluated as pedagogical tools?'}
+{'answer': 'social comparison theory', 'question': 'What does the learning tracker relie on?'}
+{'answer': 'visualise their learning behaviour and compare it to that of graduates of previous editions of the same mooc', 'question': 'How can learners compare their learning behaviour to graduates of previous editions of the same mooc?'}
+{'answer': 'low-level data', 'question': 'What does the learning tracker use from trace logs?'}
+{'answer': 'engagement and time management metrics', 'question': 'What metrics describe behaviour?'}
+{'answer': 'spider chart', 'question': 'What chart allows a concise visualisation of numerous indicators in a small space?'}
+{'answer': 'hovering over any data point', 'question': 'What is a tool-tip displayed with the actual values of the indicator for all the learner profiles?'}
+{'answer': 'activity widget', 'question': 'What is the activity widget?'}
+{'answer': 'kirschner', 'question': 'What et al., 2015, said the activity widget was based on the idea that providing group awareness to students might alleviate interaction and communication'}
+{'answer': 'to make students aware of their own platform activity relative to that of the group and of differences in activity between the group members', 'question': 'What is the aim of the activity widget?'}
+{'answer': 'reflection about how their behaviour influences their future status', 'question': 'What does the activity widget aim to foster?'}
+{'answer': 'their position within the group and in relation to their course outcome', 'question': 'What does the activity widget aims at fostering reflection about how their behaviour influences their future status?'}
+{'answer': 'gnu gpl version 2', 'question': 'Under what version is the widget available for download?'}
+{'answer': 'two subsections', 'question': "How many subsections does the widget contain information about users' platform activities?"}
+{'answer': 'cumulative view and the periodic view', 'question': 'What are two subsections of the widget?'}
+{'answer': 'five', 'question': 'How many widget indicators is the platform activity expressed in?'}
+{'answer': 'activity data recorded by the platform', 'question': 'The widget indicator scores are automatically calculated from what?'}
+{'answer': 'five axes', 'question': 'How many axes are displayed for the five widget indicators?'}
+{'answer': 'hovering with the mouse over the labels of the axes', 'question': 'When is the definition of the widget indicator displayed?'}
+{'answer': 'when pointing with the cursor at the dots in the chart', 'question': 'What is the corresponding widget indicator score displayed when hovering with the mouse over the labels of the axes?'}
+{'answer': 'the ‘cumulative activity’ radar chart', 'question': 'What chart presents the widget indicator scores for the whole run of the course?'}
+{'answer': 'from the beginning of the course until the current date', 'question': 'When does the ‘cumulative activity’ radar chart show the widget indicator scores for the whole run of the course?'}
+{'answer': 'orange', 'question': "What is used for a user's own scores?"}
+{'answer': '10', 'question': 'What are the scores in the radar chart scaled from 0 to?'}
+{'answer': 'colour coding', 'question': 'What applies to the ‘my activity’ bar chart?'}
+{'answer': 'orange bar', 'question': "What shows a user's average activity?"}
+{'answer': 'w1 initiative', 'question': 'What is the average widget indicator?'}
+{'answer': 'the ‘periodic activity’ radar chart', 'question': 'What chart presents the widget indicator scores per month?'}
+{'answer': 'slider', 'question': 'What can users choose the specific month with below the chart?'}
+{'answer': 'widget indicator scores', 'question': 'What is visualised in order to facilitate group performance by enabling co- and self-regulation processes?'}
+{'answer': 'rpm', 'question': 'What is the reciprocal privacy model?'}
+{'answer': 'rpm', 'question': 'What allows users to decide how they would like to share their data?'}
+{'answer': 'if he also agrees to share his own data with the rest of the users', 'question': 'What can a target user only see the individual performance of other users?'}
+{'answer': 'if a user disagrees with sharing his data', 'question': 'What happens if a user disagrees with sharing his data?'}
+{'answer': 'scheffel', 'question': "What et al. examined the predictive power of the widget indicators towards the students' grades of this course?"}
+{'answer': '2017a', 'question': 'What year did scheffel et al. implement the widget?'}
+{'answer': 'responsiveness', 'question': 'What does the widget indicator indicate?'}
+{'answer': 'response posts', 'question': 'What is a significant positive predictor towards the grades of the course?'}
+{'answer': 'the students’ behaviour of the first few months of the course held more predictive power', 'question': 'What did scheffel et al. study in the years without the widget?'}
+{'answer': 'the use of the widget', 'question': 'What could explain the differences between the years?'}
+{'answer': 'purdue university', 'question': 'What university indiana is one of the first and most known learning analytics dashboards?'}
+{'answer': 'early', 'question': 'What type of warning system was signals designed to help students understand how they are progressing through their courses early enough so that they can seek help?'}
+{'answer': 'increase the overall retention and graduation rates at an institutional level', 'question': 'What does signals aim to achieve by increasing student success at the course level?'}
+{'answer': 'virtual learning environment', 'question': 'What is vle?'}
+{'answer': 'predictive algorithm', 'question': 'What algorithm determines how much at-risk of failing each student is?'}
+{'answer': 'performance', 'question': 'What is the percentage of points earned so far in the courseeffort?'}
+{'answer': 'a student’s course homepage', 'question': 'Where are the results displayed?'}
+{'answer': 'a red light', 'question': 'What indicates a high probability of being unsuccessful?'}
+{'answer': '10', 'question': 'What percentage of students in courses that used course signals were awarded as and bs?'}
+{'answer': 'decrease in unsatisfactory grades and withdrawals', 'question': 'What did the study show in terms of final grades?'}
+{'answer': 'pilot runs', 'question': 'What did students that were using signals ask for help more frequently than those who did not take part in?'}
+{'answer': '30%', 'question': 'What percentage of students were seeking help after the interventions stopped?'}
+{'answer': '74%', 'question': 'What percentage of students said their motivation was positively affected by using signals?'}
+{'answer': 'many were hesitant and showed caution', 'question': 'What did faculty and instructors have a positive response to signals?'}
+{'answer': 'a bird view', 'question': 'What does the macro level take on a directory of courses?'}
+{'answer': 'michigan', 'question': 'Where is student explorer deployed?'}
+{'answer': 'behavioural', 'question': 'What type of change does student explorer aim to direct students towards?'}
+{'answer': 'predictive algorithm', 'question': 'What classifies students into risk classes based on their academic performance?'}
+{'answer': 'learning management system', 'question': 'What is lms gradebook and assignment tools used to measure academic performance?'}
+{'answer': 'course website login information', 'question': 'What is student effort measured by?'}
+{'answer': 'student risk categories', 'question': 'What are labeled with the most appropriate action to be taken by the academic advisor?'}
+{'answer': 'iteratively', 'question': 'What was the interface of the system developed?'}
+{'answer': 'bar chart', 'question': 'What does the summary screen contain?'}
+{'answer': 'percentage of points earned over the time of a student vs. the class average and the weekly lms site visits percentile', 'question': 'What is the percentage of points earned over the time of a student vs. the class average?'}
+{'answer': 'winter 2011', 'question': 'When was student explorer introduced?'}
+{'answer': 'second-year grade point averages', 'question': 'What is gpa?'}
+{'answer': 'face-to-face meetings', 'question': 'How did academic advisors start using the detailed class screen?'}
+{'answer': '16.600', 'question': 'How many students do student explorer support?'}
